@@ -1,0 +1,1128 @@
+{
+  "batch_id": "BATCH-20261029-20",
+  "model": "v6-mini",
+  "mode": "Advanced",
+  "requested_designs": 20,
+  "groups": {
+    "D": 10,
+    "P": 5,
+    "N": 5
+  },
+  "user_authorized_generation": true,
+  "starting_credits": 6630,
+  "packages": [
+    {
+      "id": "PRM-000028",
+      "code": "D01",
+      "group": "D",
+      "title": "22_D01_천으로 덮은 밤",
+      "bpm": 64,
+      "keyboard": "Felt upright piano, dense matte midrange, very short dry decay",
+      "harmony": "Ebmaj7 3 bars, Fm9 1, Abmaj7 2, Bb6 2",
+      "playing": "A compact melody descends a fourth then answers with a held inner third; chord stabs leave the fourth beat empty",
+      "rhythm": "An acoustic felt-beater kick with a soft broad body and towel-damped rack tom; kick on 1, low tom late on 3, omit tom every second bar",
+      "style": "Instrumental lo-fi hip hop, 64 BPM, 4/4. Dark, muffled, warm, steady low energy. Felt upright piano, dense matte midrange, very short dry decay is the main voice, with rounded bass. Harmony: Ebmaj7 3 bars, Fm9 1, Abmaj7 2, Bb6 2. A compact melody descends a fourth then answers with a held inner third; chord stabs leave the fourth beat empty. An acoustic felt-beater kick with a soft broad body and towel-damped rack tom; kick on 1, low tom late on 3, omit tom every second bar. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 670,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "56b00151-6700-4e4d-9d22-dc08651936fb",
+          "url": "https://suno.com/song/56b00151-6700-4e4d-9d22-dc08651936fb",
+          "duration_display": "2:28",
+          "duration_seconds": 148,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "5e54c71b-5850-4fa6-b414-a00462fcaa9d",
+          "url": "https://suno.com/song/5e54c71b-5850-4fa6-b414-a00462fcaa9d",
+          "duration_display": "2:25",
+          "duration_seconds": 145,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 670,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "c96d9f53",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000029",
+      "code": "D02",
+      "group": "D",
+      "title": "23_D02_고무빛 전류",
+      "bpm": 67,
+      "keyboard": "Tine electric piano, rubbery attack, almost no bell partials, close and dry",
+      "harmony": "Cm9 2 bars, Abmaj7 2, Fm7 2, Gm7 2",
+      "playing": "Short upper dyads alternate with a sustained lower chord tone across two bars; melody avoids outlining every chord root",
+      "rhythm": "An electronic round sine-body kick with a short low rubber tom; kick on 1 and after 2, tom quietly on 4 only in alternate bars",
+      "style": "Instrumental lo-fi hip hop, 67 BPM, 4/4. Dark, muffled, warm, steady low energy. Tine electric piano, rubbery attack, almost no bell partials, close and dry is the main voice, with rounded bass. Harmony: Cm9 2 bars, Abmaj7 2, Fm7 2, Gm7 2. Short upper dyads alternate with a sustained lower chord tone across two bars; melody avoids outlining every chord root. An electronic round sine-body kick with a short low rubber tom; kick on 1 and after 2, tom quietly on 4 only in alternate bars. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 679,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "87673823-1cff-49bd-8605-96f884fee72f",
+          "url": "https://suno.com/song/87673823-1cff-49bd-8605-96f884fee72f",
+          "duration_display": "2:47",
+          "duration_seconds": 167,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "cd97807d-8d30-4bb3-8a5b-76df99f61e04",
+          "url": "https://suno.com/song/cd97807d-8d30-4bb3-8a5b-76df99f61e04",
+          "duration_display": "2:04",
+          "duration_seconds": 124,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 679,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "8cdcce4c",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000030",
+      "code": "D03",
+      "group": "D",
+      "title": "24_D03_느린 해머의 온기",
+      "bpm": 62,
+      "keyboard": "Una-corda grand piano, soft woolly hammer, rounded woody body and gentle medium release",
+      "harmony": "Bbmaj9 4 bars, Eb6 2, Cm7 1, Fsus2 1",
+      "playing": "Thin chord voicings move in parallel thirds before a single held resolving note, with a whole bar of melodic rest",
+      "rhythm": "A deep loose bass drum and low felt-mallet floor tom, soft resonant skin rather than clicks; one bass hit per bar, two separated tom answers across four bars",
+      "style": "Instrumental lo-fi hip hop, 62 BPM, 4/4. Dark, muffled, warm, steady low energy. Una-corda grand piano, soft woolly hammer, rounded woody body and gentle medium release is the main voice, with rounded bass. Harmony: Bbmaj9 4 bars, Eb6 2, Cm7 1, Fsus2 1. Thin chord voicings move in parallel thirds before a single held resolving note, with a whole bar of melodic rest. A deep loose bass drum and low felt-mallet floor tom, soft resonant skin rather than clicks; one bass hit per bar, two separated tom answers across four bars. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 718,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "da774ab8-dc75-4b1d-933a-b1df22fae192",
+          "url": "https://suno.com/song/da774ab8-dc75-4b1d-933a-b1df22fae192",
+          "duration_display": "3:00",
+          "duration_seconds": 180,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "0f0335a3-02aa-4857-a93f-54f01025365f",
+          "url": "https://suno.com/song/0f0335a3-02aa-4857-a93f-54f01025365f",
+          "duration_display": "3:19",
+          "duration_seconds": 199,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 718,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "e2bbf6b1",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000031",
+      "code": "D04",
+      "group": "D",
+      "title": "25_D04_갈색 리드의 틈",
+      "bpm": 66,
+      "keyboard": "Reed electric piano at soft velocity, dark hollow midrange, short rounded attack, no overdrive",
+      "harmony": "Dm9 2 bars, Gm9 2, Bbmaj7 3, A7sus4 1",
+      "playing": "A gently syncopated five-note phrase stretches across four bars; sustain the second note, shorten the last two",
+      "rhythm": "A dry padded bass drum and tiny low-passed closed hi-hat, no cymbal wash; bass hits on 1 and the last eighth of 3, hats only two weak eighths per bar",
+      "style": "Instrumental lo-fi hip hop, 66 BPM, 4/4. Dark, muffled, warm, steady low energy. Reed electric piano at soft velocity, dark hollow midrange, short rounded attack, no overdrive is the main voice, with rounded bass. Harmony: Dm9 2 bars, Gm9 2, Bbmaj7 3, A7sus4 1. A gently syncopated five-note phrase stretches across four bars; sustain the second note, shorten the last two. A dry padded bass drum and tiny low-passed closed hi-hat, no cymbal wash; bass hits on 1 and the last eighth of 3, hats only two weak eighths per bar. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 715,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "156ffbb5-9f50-4a6f-a436-873fc6d9908d",
+          "url": "https://suno.com/song/156ffbb5-9f50-4a6f-a436-873fc6d9908d",
+          "duration_display": "2:44",
+          "duration_seconds": 164,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "407d33b3-2817-4575-b845-334eda55f4b7",
+          "url": "https://suno.com/song/407d33b3-2817-4575-b845-334eda55f4b7",
+          "duration_display": "2:40",
+          "duration_seconds": 160,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 715,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "a553e7a1",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000032",
+      "code": "D05",
+      "group": "D",
+      "title": "26_D05_둥근 펠트의 잔상",
+      "bpm": 65,
+      "keyboard": "Felt grand piano, velvety midrange with a longer dark decay and restrained pedal",
+      "harmony": "Fmaj9 2 bars, Am7 1, Dm9 3, Gm7 1, C6 1",
+      "playing": "Melody repeats a gentle downward second while inner harmony ascends; use broad spaced chord holds rather than a constant riff",
+      "rhythm": "A soft vintage low kick with a very brief papery muted tom; a three-bar sparse phrase shifts the tom answer one beat later each cycle",
+      "style": "Instrumental lo-fi hip hop, 65 BPM, 4/4. Dark, muffled, warm, steady low energy. Felt grand piano, velvety midrange with a longer dark decay and restrained pedal is the main voice, with rounded bass. Harmony: Fmaj9 2 bars, Am7 1, Dm9 3, Gm7 1, C6 1. Melody repeats a gentle downward second while inner harmony ascends; use broad spaced chord holds rather than a constant riff. A soft vintage low kick with a very brief papery muted tom; a three-bar sparse phrase shifts the tom answer one beat later each cycle. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 702,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "31a647c2-3ecf-4050-a1b3-b6b8c6ee09f1",
+          "url": "https://suno.com/song/31a647c2-3ecf-4050-a1b3-b6b8c6ee09f1",
+          "duration_display": "3:10",
+          "duration_seconds": 190,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "bde5524a-74c3-4fc5-a4f2-b0bfcbd2a928",
+          "url": "https://suno.com/song/bde5524a-74c3-4fc5-a4f2-b0bfcbd2a928",
+          "duration_display": "3:09",
+          "duration_seconds": 189,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 702,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "88079c01",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000033",
+      "code": "D06",
+      "group": "D",
+      "title": "27_D06_닫힌 뚜껑의 화음",
+      "bpm": 61,
+      "keyboard": "Closed-lid upright piano, close woody and mellow, rounded attacks, almost no room tail",
+      "harmony": "Gm9 3 bars, Cm7 1, Ebmaj9 3, Dm7 1",
+      "playing": "Two low-middle chord inversions alternate with a short rising third; let bass enter in the piano rests",
+      "rhythm": "A small shallow bass drum with a soft woody body and a dark padded palm clap; bass on 1, clap faintly late on 4 every two bars, no backbeat snare",
+      "style": "Instrumental lo-fi hip hop, 61 BPM, 4/4. Dark, muffled, warm, steady low energy. Closed-lid upright piano, close woody and mellow, rounded attacks, almost no room tail is the main voice, with rounded bass. Harmony: Gm9 3 bars, Cm7 1, Ebmaj9 3, Dm7 1. Two low-middle chord inversions alternate with a short rising third; let bass enter in the piano rests. A small shallow bass drum with a soft woody body and a dark padded palm clap; bass on 1, clap faintly late on 4 every two bars, no backbeat snare. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 692,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "11855a70-6492-41df-93b0-d72413970ab3",
+          "url": "https://suno.com/song/11855a70-6492-41df-93b0-d72413970ab3",
+          "duration_display": "2:52",
+          "duration_seconds": 172,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "ec2ef5c1-4ee1-4700-b3f1-f1fa4ce34544",
+          "url": "https://suno.com/song/ec2ef5c1-4ee1-4700-b3f1-f1fa4ce34544",
+          "duration_display": "3:00",
+          "duration_seconds": 180,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 692,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "9b8c437e",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000034",
+      "code": "D07",
+      "group": "D",
+      "title": "28_D07_전기 속 짧은 숨",
+      "bpm": 68,
+      "keyboard": "Suitcase tine piano, thick low-mid body, soft compressed attack, subtle slow tremolo and little metallic ring",
+      "harmony": "Abmaj7 2 bars, Bbm7 2, Dbmaj9 2, Eb6 2",
+      "playing": "Repeated two-note chord answers move down by step; a held inner note bridges every second chord change",
+      "rhythm": "A rounded electronic kick and two softly pitched analog toms with unequal decays; alternate low-high tom replies in the spaces after piano chords",
+      "style": "Instrumental lo-fi hip hop, 68 BPM, 4/4. Dark, muffled, warm, steady low energy. Suitcase tine piano, thick low-mid body, soft compressed attack, subtle slow tremolo and little metallic ring is the main voice, with rounded bass. Harmony: Abmaj7 2 bars, Bbm7 2, Dbmaj9 2, Eb6 2. Repeated two-note chord answers move down by step; a held inner note bridges every second chord change. A rounded electronic kick and two softly pitched analog toms with unequal decays; alternate low-high tom replies in the spaces after piano chords. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 719,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "49e81fdf-a948-40ca-b39a-c5e1f105a226",
+          "url": "https://suno.com/song/49e81fdf-a948-40ca-b39a-c5e1f105a226",
+          "duration_display": "2:59",
+          "duration_seconds": 179,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "6ca1d053-5981-4e54-bc6f-c46dd03ef037",
+          "url": "https://suno.com/song/6ca1d053-5981-4e54-bc6f-c46dd03ef037",
+          "duration_display": "3:05",
+          "duration_seconds": 185,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 719,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "73e6d51f",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000035",
+      "code": "D08",
+      "group": "D",
+      "title": "29_D08_목재의 낮은 울림",
+      "bpm": 63,
+      "keyboard": "Soft studio upright piano, rich woody body, softly muted hammer and a small warm room",
+      "harmony": "Am9 2 bars, Em7 2, Fmaj9 2, Dm7 1, G6 1",
+      "playing": "A descending chord voice crosses beneath a quiet stationary melody tone, followed by two widely separated notes",
+      "rhythm": "A large pillow-damped kick and a short dull closed hi-hat; kick starts alternate bars, hat gives a sparse offbeat pair with long silence",
+      "style": "Instrumental lo-fi hip hop, 63 BPM, 4/4. Dark, muffled, warm, steady low energy. Soft studio upright piano, rich woody body, softly muted hammer and a small warm room is the main voice, with rounded bass. Harmony: Am9 2 bars, Em7 2, Fmaj9 2, Dm7 1, G6 1. A descending chord voice crosses beneath a quiet stationary melody tone, followed by two widely separated notes. A large pillow-damped kick and a short dull closed hi-hat; kick starts alternate bars, hat gives a sparse offbeat pair with long silence. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 696,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "b5e64d1a-cb87-45f1-86c5-6fbe9c07444f",
+          "url": "https://suno.com/song/b5e64d1a-cb87-45f1-86c5-6fbe9c07444f",
+          "duration_display": "2:44",
+          "duration_seconds": 164,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "6ed60768-ab9c-48a2-a482-420b1cf7488d",
+          "url": "https://suno.com/song/6ed60768-ab9c-48a2-a482-420b1cf7488d",
+          "duration_display": "2:25",
+          "duration_seconds": 145,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 696,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "51b312a3",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000036",
+      "code": "D09",
+      "group": "D",
+      "title": "30_D09_어두운 아날로그 건반",
+      "bpm": 66,
+      "keyboard": "Analog electric-piano keyboard with a softly triangular body, rounded plucky onset and dark short release, not a bell",
+      "harmony": "Cmaj9 3 bars, Fmaj7 1, Dm9 2, Em7 2",
+      "playing": "A four-bar melody rises slowly by seconds then drops a fourth; leave chord tones unfilled rather than playing scales",
+      "rhythm": "A low soft kick with a slow round attack and a softly mallet-hit medium tom, bass drum once in odd bars and tom once in even bars",
+      "style": "Instrumental lo-fi hip hop, 66 BPM, 4/4. Dark, muffled, warm, steady low energy. Analog electric-piano keyboard with a softly triangular body, rounded plucky onset and dark short release, not a bell is the main voice, with rounded bass. Harmony: Cmaj9 3 bars, Fmaj7 1, Dm9 2, Em7 2. A four-bar melody rises slowly by seconds then drops a fourth; leave chord tones unfilled rather than playing scales. A low soft kick with a slow round attack and a softly mallet-hit medium tom, bass drum once in odd bars and tom once in even bars. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 722,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "a1c6ea85-0c13-49ee-a6d8-edbe8c70e9ef",
+          "url": "https://suno.com/song/a1c6ea85-0c13-49ee-a6d8-edbe8c70e9ef",
+          "duration_display": "2:54",
+          "duration_seconds": 174,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "571cf92d-3323-4db0-8e9c-66e40d2b78fb",
+          "url": "https://suno.com/song/571cf92d-3323-4db0-8e9c-66e40d2b78fb",
+          "duration_display": "2:47",
+          "duration_seconds": 167,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 722,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "9664d194",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000037",
+      "code": "D10",
+      "group": "D",
+      "title": "31_D10_묵직한 해머의 그림자",
+      "bpm": 64,
+      "keyboard": "Mellow low-velocity grand piano, thick middle notes, rounded hammer transients and a close narrow image",
+      "harmony": "Fm9 2 bars, Bbm9 2, Dbmaj7 1, Eb6 1, Cm7 2",
+      "playing": "A pair of sustained chord tones trades which voice moves, with small low-register piano replies every four bars",
+      "rhythm": "A short tight felt kick and a dark damped floor tom, low transient but clear body; two quiet kick hits spaced across one bar, one long tom response in the next",
+      "style": "Instrumental lo-fi hip hop, 64 BPM, 4/4. Dark, muffled, warm, steady low energy. Mellow low-velocity grand piano, thick middle notes, rounded hammer transients and a close narrow image is the main voice, with rounded bass. Harmony: Fm9 2 bars, Bbm9 2, Dbmaj7 1, Eb6 1, Cm7 2. A pair of sustained chord tones trades which voice moves, with small low-register piano replies every four bars. A short tight felt kick and a dark damped floor tom, low transient but clear body; two quiet kick hits spaced across one bar, one long tom response in the next. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone",
+      "style_chars": 740,
+      "exclude_chars": 350,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "8a22d21e-fd64-42a3-a1ae-ef515b6b0a5b",
+          "url": "https://suno.com/song/8a22d21e-fd64-42a3-a1ae-ef515b6b0a5b",
+          "duration_display": "3:12",
+          "duration_seconds": 192,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "a50e6785-8749-40fa-b93a-b89c1000e521",
+          "url": "https://suno.com/song/a50e6785-8749-40fa-b93a-b89c1000e521",
+          "duration_display": "2:55",
+          "duration_seconds": 175,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 740,
+        "checked_exclude_chars": 350
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "fd792f28",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000038",
+      "code": "P01",
+      "group": "P",
+      "title": "32_P01_점토의 둥근 호흡",
+      "bpm": 63,
+      "keyboard": "Reed electric piano, velvety low-mid tone, smooth onset and softly damped tails",
+      "harmony": "Ebmaj9 2 bars, Cm7 3, Abmaj7 1, Fm9 2",
+      "playing": "A held melody note is revoiced below, then answers with a falling third after a full beat of silence",
+      "rhythm": "Only clay udu, hollow rounded air-body bass tones with quiet damped fingertip shell taps; alternate one deep tone with two separated soft touches over two bars",
+      "style": "Instrumental lo-fi hip hop, 63 BPM, 4/4. Dark, muffled, warm, steady low energy. Reed electric piano, velvety low-mid tone, smooth onset and softly damped tails is the main voice, with rounded bass. Harmony: Ebmaj9 2 bars, Cm7 3, Abmaj7 1, Fm9 2. A held melody note is revoiced below, then answers with a falling third after a full beat of silence. Only clay udu, hollow rounded air-body bass tones with quiet damped fingertip shell taps; alternate one deep tone with two separated soft touches over two bars. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drum kit, kick drum, hi-hat, cymbals, drum machine",
+      "style_chars": 700,
+      "exclude_chars": 402,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "246d3282-45ba-47d8-a35e-851c76c4015d",
+          "url": "https://suno.com/song/246d3282-45ba-47d8-a35e-851c76c4015d",
+          "duration_display": "3:15",
+          "duration_seconds": 195,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "6e4f55a0-1fb6-4192-b4bf-6e6311e9e386",
+          "url": "https://suno.com/song/6e4f55a0-1fb6-4192-b4bf-6e6311e9e386",
+          "duration_display": "3:16",
+          "duration_seconds": 196,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 700,
+        "checked_exclude_chars": 402
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "b23c7cc7",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000039",
+      "code": "P02",
+      "group": "P",
+      "title": "33_P02_나무 상자의 빈자리",
+      "bpm": 66,
+      "keyboard": "Soft felt upright piano, dry compact midrange, gentle percussive hammer and brief release",
+      "harmony": "Bbmaj7 3 bars, Gm9 1, Ebmaj7 2, Cm9 1, F6 1",
+      "playing": "A short rising dyad resolves into a held single melody tone; sustained chord inversions avoid constant root-position blocks",
+      "rhythm": "Only a snareless Peruvian cajon, low wooden center thumps and padded side touches; one center hit on 2 and a muted side answer late in the following bar",
+      "style": "Instrumental lo-fi hip hop, 66 BPM, 4/4. Dark, muffled, warm, steady low energy. Soft felt upright piano, dry compact midrange, gentle percussive hammer and brief release is the main voice, with rounded bass. Harmony: Bbmaj7 3 bars, Gm9 1, Ebmaj7 2, Cm9 1, F6 1. A short rising dyad resolves into a held single melody tone; sustained chord inversions avoid constant root-position blocks. Only a snareless Peruvian cajon, low wooden center thumps and padded side touches; one center hit on 2 and a muted side answer late in the following bar. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drum kit, kick drum, hi-hat, cymbals, drum machine",
+      "style_chars": 732,
+      "exclude_chars": 402,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "57200f6d-a540-4801-ac8b-8e06fe12271a",
+          "url": "https://suno.com/song/57200f6d-a540-4801-ac8b-8e06fe12271a",
+          "duration_display": "2:54",
+          "duration_seconds": 174,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "f9ea70f1-2f88-4040-893a-32e97577d4dc",
+          "url": "https://suno.com/song/f9ea70f1-2f88-4040-893a-32e97577d4dc",
+          "duration_display": "2:54",
+          "duration_seconds": 174,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 732,
+        "checked_exclude_chars": 402
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "044e044a",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000040",
+      "code": "P03",
+      "group": "P",
+      "title": "34_P03_낮은 가죽의 결",
+      "bpm": 64,
+      "keyboard": "Warm tine electric piano, soft elastic attack, thick slightly sustained mids with bell component suppressed",
+      "harmony": "Dm9 3 bars, Fmaj7 1, Bbmaj9 2, Gm7 2",
+      "playing": "Two chord tones move in contrary directions, followed by a sparse melody pickup near each fourth bar ending",
+      "rhythm": "Only a low conga with damped open tones and very soft muted palm strokes; one low tone at the phrase head and a quiet two-stroke answer, no slaps or busy tumbao",
+      "style": "Instrumental lo-fi hip hop, 64 BPM, 4/4. Dark, muffled, warm, steady low energy. Warm tine electric piano, soft elastic attack, thick slightly sustained mids with bell component suppressed is the main voice, with rounded bass. Harmony: Dm9 3 bars, Fmaj7 1, Bbmaj9 2, Gm7 2. Two chord tones move in contrary directions, followed by a sparse melody pickup near each fourth bar ending. Only a low conga with damped open tones and very soft muted palm strokes; one low tone at the phrase head and a quiet two-stroke answer, no slaps or busy tumbao. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drum kit, kick drum, hi-hat, cymbals, drum machine",
+      "style_chars": 735,
+      "exclude_chars": 402,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "9663821f-1409-4e90-abcd-627023e752b5",
+          "url": "https://suno.com/song/9663821f-1409-4e90-abcd-627023e752b5",
+          "duration_display": "3:10",
+          "duration_seconds": 190,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "cdd766d2-c1d8-4265-8c72-816ab75b17ec",
+          "url": "https://suno.com/song/cdd766d2-c1d8-4265-8c72-816ab75b17ec",
+          "duration_display": "3:20",
+          "duration_seconds": 200,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 735,
+        "checked_exclude_chars": 402
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "3b7157d8",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000041",
+      "code": "P04",
+      "group": "P",
+      "title": "35_P04_두 통의 느린 대화",
+      "bpm": 62,
+      "keyboard": "Una-corda grand piano, dark rounded body, soft felt-like onset, short warm room and moderate sustain",
+      "harmony": "Abmaj9 4 bars, Fm9 2, Bbm7 1, Eb6 1",
+      "playing": "One inner note moves while the upper melody rests; every other four-bar phrase uses a slow descending pair",
+      "rhythm": "Only muted bongos played gently on the lower drum, two subtly different skin pitches with rounded attacks; isolated low-high pair in one bar followed by an empty bar",
+      "style": "Instrumental lo-fi hip hop, 62 BPM, 4/4. Dark, muffled, warm, steady low energy. Una-corda grand piano, dark rounded body, soft felt-like onset, short warm room and moderate sustain is the main voice, with rounded bass. Harmony: Abmaj9 4 bars, Fm9 2, Bbm7 1, Eb6 1. One inner note moves while the upper melody rests; every other four-bar phrase uses a slow descending pair. Only muted bongos played gently on the lower drum, two subtly different skin pitches with rounded attacks; isolated low-high pair in one bar followed by an empty bar. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drum kit, kick drum, hi-hat, cymbals, drum machine",
+      "style_chars": 731,
+      "exclude_chars": 402,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "cf838342-c956-4813-ab46-f926338eed90",
+          "url": "https://suno.com/song/cf838342-c956-4813-ab46-f926338eed90",
+          "duration_display": "2:18",
+          "duration_seconds": 138,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "423af024-8913-4e1b-9895-e1acc3d07005",
+          "url": "https://suno.com/song/423af024-8913-4e1b-9895-e1acc3d07005",
+          "duration_display": "2:28",
+          "duration_seconds": 148,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 731,
+        "checked_exclude_chars": 402
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "b62c8f8e",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000042",
+      "code": "P05",
+      "group": "P",
+      "title": "36_P05_부드러운 알갱이",
+      "bpm": 65,
+      "keyboard": "Mellow reed electric piano, dry smoky middle register, soft onset and very short dark decay",
+      "harmony": "Cm9 2 bars, Ebmaj7 1, Abmaj9 3, Gm7 2",
+      "playing": "The melody holds across a chord change then descends a fifth; detached chord replies occupy the rests",
+      "rhythm": "Only a soft low-volume studio shaker with a dark rounded granular texture, brief separated gestures on weak beats and full silent bars; no continuous swishing",
+      "style": "Instrumental lo-fi hip hop, 65 BPM, 4/4. Dark, muffled, warm, steady low energy. Mellow reed electric piano, dry smoky middle register, soft onset and very short dark decay is the main voice, with rounded bass. Harmony: Cm9 2 bars, Ebmaj7 1, Abmaj9 3, Gm7 2. The melody holds across a chord change then descends a fifth; detached chord replies occupy the rests. Only a soft low-volume studio shaker with a dark rounded granular texture, brief separated gestures on weak beats and full silent bars; no continuous swishing. Keep the keyboard in a comfortable middle register, all rhythm quiet behind it. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drum kit, kick drum, hi-hat, cymbals, drum machine",
+      "style_chars": 712,
+      "exclude_chars": 402,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "ee269735-e6c2-4783-9c2d-496b51c8e09e",
+          "url": "https://suno.com/song/ee269735-e6c2-4783-9c2d-496b51c8e09e",
+          "duration_display": "2:53",
+          "duration_seconds": 173,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "ad2b3832-8697-4a03-ac12-df4decd892eb",
+          "url": "https://suno.com/song/ad2b3832-8697-4a03-ac12-df4decd892eb",
+          "duration_display": "2:43",
+          "duration_seconds": 163,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 712,
+        "checked_exclude_chars": 402
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "105a9d6c",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000043",
+      "code": "N01",
+      "group": "N",
+      "title": "37_N01_박자만 남은 방",
+      "bpm": 62,
+      "keyboard": "Felt upright piano, close dry woody body and soft rounded hammer",
+      "harmony": "Fmaj9 3 bars, Gm9 1, Bbmaj7 3, C6 1",
+      "playing": "A short chord and held melody note alternate across bars; rhythmic gaps carry the pulse",
+      "rhythm": "No drums or percussion at any point; only piano and sparse warm upright bass, with bass roots on selected chord changes",
+      "style": "Instrumental lo-fi hip hop, 62 BPM, 4/4. Dark, muffled, warm, steady low energy. Felt upright piano, close dry woody body and soft rounded hammer is the main voice, with rounded bass. Harmony: Fmaj9 3 bars, Gm9 1, Bbmaj7 3, C6 1. A short chord and held melody note alternate across bars; rhythmic gaps carry the pulse. No drums or percussion at any point; only piano and sparse warm upright bass, with bass roots on selected chord changes. Keep the keyboard in a comfortable middle register, leave real silence between phrases. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drums, percussion, kick drum, toms, hi-hat, cymbals, claps, shaker, hand drums, drum machine",
+      "style_chars": 638,
+      "exclude_chars": 444,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "bef550d6-c2fa-4dbf-91ef-2c57a9db9e43",
+          "url": "https://suno.com/song/bef550d6-c2fa-4dbf-91ef-2c57a9db9e43",
+          "duration_display": "2:20",
+          "duration_seconds": 140,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "39b51737-814e-4ade-b180-846e7d752c26",
+          "url": "https://suno.com/song/39b51737-814e-4ade-b180-846e7d752c26",
+          "duration_display": "2:47",
+          "duration_seconds": 167,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 638,
+        "checked_exclude_chars": 444
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "846337fb",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000044",
+      "code": "N02",
+      "group": "N",
+      "title": "38_N02_잔향 사이의 저음",
+      "bpm": 60,
+      "keyboard": "Warm tine electric piano, velvety sustained body, gently rounded onset, muted metallic overtones",
+      "harmony": "Gm9 2 bars, Bbmaj7 2, Cm9 3, Dm7 1",
+      "playing": "Sparse upper thirds resolve into a single middle note; sustain harmony but leave long melodic rests",
+      "rhythm": "No drums or percussion at any point; piano is the only melodic instrument, a short round synth bass quietly supports alternate chord changes",
+      "style": "Instrumental lo-fi hip hop, 60 BPM, 4/4. Dark, muffled, warm, steady low energy. Warm tine electric piano, velvety sustained body, gently rounded onset, muted metallic overtones is the main voice, with rounded bass. Harmony: Gm9 2 bars, Bbmaj7 2, Cm9 3, Dm7 1. Sparse upper thirds resolve into a single middle note; sustain harmony but leave long melodic rests. No drums or percussion at any point; piano is the only melodic instrument, a short round synth bass quietly supports alternate chord changes. Keep the keyboard in a comfortable middle register, leave real silence between phrases. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drums, percussion, kick drum, toms, hi-hat, cymbals, claps, shaker, hand drums, drum machine",
+      "style_chars": 702,
+      "exclude_chars": 444,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "9432dfb0-ff12-4a7b-8b1c-4d127ea76c50",
+          "url": "https://suno.com/song/9432dfb0-ff12-4a7b-8b1c-4d127ea76c50",
+          "duration_display": "2:55",
+          "duration_seconds": 175,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "b9dd36d5-c85b-4c49-a262-6483244c8498",
+          "url": "https://suno.com/song/b9dd36d5-c85b-4c49-a262-6483244c8498",
+          "duration_display": "2:44",
+          "duration_seconds": 164,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 702,
+        "checked_exclude_chars": 444
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "8ede6e80",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000045",
+      "code": "N03",
+      "group": "N",
+      "title": "39_N03_천천히 접히는 화음",
+      "bpm": 64,
+      "keyboard": "Closed-lid grand piano, soft low-velocity hammer, thick mellow body and restrained pedal",
+      "harmony": "Ebmaj9 4 bars, Abmaj7 1, Fm9 2, Bb6 1",
+      "playing": "Slowly rolling three-note chords alternate with simultaneous dyads, with a sparse falling melody across the voicings",
+      "rhythm": "No drums or percussion at any point; piano and dry plucked upright bass only, bass phrases never double the piano attack",
+      "style": "Instrumental lo-fi hip hop, 64 BPM, 4/4. Dark, muffled, warm, steady low energy. Closed-lid grand piano, soft low-velocity hammer, thick mellow body and restrained pedal is the main voice, with rounded bass. Harmony: Ebmaj9 4 bars, Abmaj7 1, Fm9 2, Bb6 1. Slowly rolling three-note chords alternate with simultaneous dyads, with a sparse falling melody across the voicings. No drums or percussion at any point; piano and dry plucked upright bass only, bass phrases never double the piano attack. Keep the keyboard in a comfortable middle register, leave real silence between phrases. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drums, percussion, kick drum, toms, hi-hat, cymbals, claps, shaker, hand drums, drum machine",
+      "style_chars": 694,
+      "exclude_chars": 444,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "11404a3b-73b5-4211-bde2-dcfa291f3928",
+          "url": "https://suno.com/song/11404a3b-73b5-4211-bde2-dcfa291f3928",
+          "duration_display": "2:58",
+          "duration_seconds": 178,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "20cbc393-d0bc-45a6-b622-ad311ad5015a",
+          "url": "https://suno.com/song/20cbc393-d0bc-45a6-b622-ad311ad5015a",
+          "duration_display": "2:42",
+          "duration_seconds": 162,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 694,
+        "checked_exclude_chars": 444
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "25df1d7f",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000046",
+      "code": "N04",
+      "group": "N",
+      "title": "40_N04_리드 건반의 고요",
+      "bpm": 61,
+      "keyboard": "Reed electric piano, hollow rounded middle tone with soft onset, no bark and a dark short release",
+      "harmony": "Am9 3 bars, Dm9 1, Em7 2, Fmaj7 2",
+      "playing": "A quiet low piano reply follows a sustained upper chord; move the inner voice only at phrase endings",
+      "rhythm": "No drums or percussion at any point; keyboard alone carries harmony and melody, round bass notes appear sparingly with no regular beat pattern",
+      "style": "Instrumental lo-fi hip hop, 61 BPM, 4/4. Dark, muffled, warm, steady low energy. Reed electric piano, hollow rounded middle tone with soft onset, no bark and a dark short release is the main voice, with rounded bass. Harmony: Am9 3 bars, Dm9 1, Em7 2, Fmaj7 2. A quiet low piano reply follows a sustained upper chord; move the inner voice only at phrase endings. No drums or percussion at any point; keyboard alone carries harmony and melody, round bass notes appear sparingly with no regular beat pattern. Keep the keyboard in a comfortable middle register, leave real silence between phrases. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drums, percussion, kick drum, toms, hi-hat, cymbals, claps, shaker, hand drums, drum machine",
+      "style_chars": 705,
+      "exclude_chars": 444,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "a80e3d2f-0c74-4b41-a87f-fa0439b9de2a",
+          "url": "https://suno.com/song/a80e3d2f-0c74-4b41-a87f-fa0439b9de2a",
+          "duration_display": "2:45",
+          "duration_seconds": 165,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "ac7fd5b3-7984-4cb9-929e-b4f190673365",
+          "url": "https://suno.com/song/ac7fd5b3-7984-4cb9-929e-b4f190673365",
+          "duration_display": "2:44",
+          "duration_seconds": 164,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 705,
+        "checked_exclude_chars": 444
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "002b0fd0",
+        "lyrics_empty": true
+      }
+    },
+    {
+      "id": "PRM-000047",
+      "code": "N05",
+      "group": "N",
+      "title": "41_N05_펠트 뒤로 남은 빛",
+      "bpm": 63,
+      "keyboard": "Felt grand piano, soft broad midrange attack, dark medium decay and a tiny warm room",
+      "harmony": "Bbmaj9 2 bars, Dm7 1, Gm9 3, Cm7 1, Eb6 1",
+      "playing": "A restrained melody ascends a fourth then settles through two widely spaced notes; chord changes use smooth inversions",
+      "rhythm": "No drums or percussion at any point; piano and sparse warm upright bass only, calm measured spacing supplies a gentle internal pulse",
+      "style": "Instrumental lo-fi hip hop, 63 BPM, 4/4. Dark, muffled, warm, steady low energy. Felt grand piano, soft broad midrange attack, dark medium decay and a tiny warm room is the main voice, with rounded bass. Harmony: Bbmaj9 2 bars, Dm7 1, Gm9 3, Cm7 1, Eb6 1. A restrained melody ascends a fourth then settles through two widely spaced notes; chord changes use smooth inversions. No drums or percussion at any point; piano and sparse warm upright bass only, calm measured spacing supplies a gentle internal pulse. Keep the keyboard in a comfortable middle register, leave real silence between phrases. Maintain this identity through the body. Thin one phrase later; finish with a gently damped chord. About 3:00.",
+      "exclude": "vocals, scat, fast solo, drum fills, tempo changes, key changes, breakdown, build up, drop, bright, crisp hi-hats, sparkly, airy, bright cymbals, wide stereo, long intro, fast tempo, loud drums, punchy drums, snare, crisp snare, boom bap, trap, hard hitting kick, distorted drums, white noise, hiss, clipping, guitar lead, metallic bell keyboard tone, drums, percussion, kick drum, toms, hi-hat, cymbals, claps, shaker, hand drums, drum machine",
+      "style_chars": 708,
+      "exclude_chars": 444,
+      "status": "GENERATED_TWO_CANDIDATES",
+      "outputs": [
+        {
+          "variant": "A",
+          "song_id": "6a4161ca-00fd-463f-aec2-a0b57c4907ed",
+          "url": "https://suno.com/song/6a4161ca-00fd-463f-aec2-a0b57c4907ed",
+          "duration_display": "3:13",
+          "duration_seconds": 193,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        },
+        {
+          "variant": "B",
+          "song_id": "e1b2c297-8684-4183-9ed1-7a1a5271c96a",
+          "url": "https://suno.com/song/e1b2c297-8684-4183-9ed1-7a1a5271c96a",
+          "duration_display": "3:05",
+          "duration_seconds": 185,
+          "model_display": "V6-MINI",
+          "completion_evidence": "Suno song row has finished duration",
+          "listening_status": "USER_FEEDBACK_PENDING"
+        }
+      ],
+      "preinput_review": {
+        "production_standard_read": true,
+        "full_prior_register_read": true,
+        "prior_full_prompt_blocks": 51,
+        "exact_prompt_duplicate": false,
+        "body_identity_specified": true,
+        "lead_keyboard": true,
+        "checked_style_chars": 708,
+        "checked_exclude_chars": 444
+      },
+      "input_verification": {
+        "exact_fields_checked_before_click": true,
+        "registry_matches_browser_package_fnv1a32": "2e05bab3",
+        "lyrics_empty": true
+      }
+    }
+  ],
+  "design_review": {
+    "passed": true,
+    "groups": [
+      10,
+      5,
+      5
+    ],
+    "prior_prompt_blocks_compared": 51,
+    "unique_styles": 20,
+    "unique_harmonic_cycles": 20,
+    "current_ui_limits": {
+      "style": 1000,
+      "exclude": 1000
+    },
+    "scope": "Design and input check, not listening approval"
+  },
+  "settings": {
+    "model": "v6-mini",
+    "mode": "Advanced",
+    "lyrics": "empty instrumental",
+    "weirdness": 50,
+    "style_influence": 50,
+    "variety": 0,
+    "max": "Off",
+    "length": "Auto",
+    "personalization": "Off"
+  },
+  "execution": {
+    "status": "COMPLETE",
+    "accepted_generation_requests": 20,
+    "create_button_attempts": 22,
+    "unaccepted_attempts": [
+      "D09 first click",
+      "D10 first click"
+    ],
+    "delayed_ui_acceptance": "N04 wait timed out, then original request found; not retried",
+    "outputs_count": 40,
+    "starting_credits": 6630,
+    "ending_credits": 6430,
+    "credit_delta": 200,
+    "all_output_durations_observed": true,
+    "all_output_model_labels": "V6-MINI",
+    "user_adopted_outputs": [],
+    "direct_ai_listening_performed": false
+  },
+  "verification": {
+    "group_design_counts_match": true,
+    "twenty_complete_unique_inputs": true,
+    "forty_unique_completed_output_ids": true,
+    "all_input_hashes_match_browser_packages": true,
+    "all_durations_present": true,
+    "credit_delta_matches_twenty_requests": true
+  }
+}
