@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28",
+  "scope": "Repository setup, migration preservation, file format and new navigation links; not music quality or historical workflow revalidation",
+  "imported_files": 43,
+  "checks": {
+    "imported_43_files": true,
+    "all_imported_bytes_match": true,
+    "all_imported_bytes_match_source": true,
+    "no_audio_archives_caches": true,
+    "all_json_parse": true,
+    "new_document_links_resolve": true,
+    "no_detected_tokens_private_keys_signed_urls": true,
+    "git_index_preserves_all_43_source_hashes": true,
+    "git_staged_diff_check": true
+  },
+  "passed": true,
+  "original_workflow_validator_rerun": false
+}

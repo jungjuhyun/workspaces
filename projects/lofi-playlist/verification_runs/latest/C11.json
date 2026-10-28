@@ -1,0 +1,49 @@
+{
+  "test_only": true,
+  "not_real_music_research_or_audio": true,
+  "case_id": "C11",
+  "input": {
+    "authorized": [
+      "research",
+      "generation"
+    ],
+    "request": "continue",
+    "events": [
+      "P1",
+      "P2_SCOPE",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "baseline_attempted": true
+  },
+  "expected": {
+    "next": "P7",
+    "can_generate": true
+  },
+  "actual": {
+    "next": "P7",
+    "can_generate": true,
+    "blocked": [
+      "D05",
+      "D07"
+    ],
+    "effect_claim": "UNRESOLVED",
+    "audio": "UNASSESSED",
+    "long_listening": "UNASSESSED",
+    "adoption": "NOT_SELECTED",
+    "preset": "UNVALIDATED",
+    "candidate_kind": null,
+    "validated_effect": false,
+    "source_effect": "NOT_ESTABLISHED",
+    "diversity": "NOT_ASSESSED"
+  },
+  "passed": true,
+  "failures": {},
+  "action_record": {
+    "next_task": "P7",
+    "actual_external_action_performed": false
+  },
+  "scope_note": "Hypothetical evidence flags exercise document routing; no real audio was heard."
+}

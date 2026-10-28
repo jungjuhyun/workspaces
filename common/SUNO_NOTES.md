@@ -1,0 +1,23 @@
+# Suno 정보와 계정 관찰의 사용 범위
+
+기준일: 2026-10-28, Asia/Seoul. 아래는 기존 프로젝트에서 확보한 관찰과 출처를 새 작업에서 올바르게 사용하는 안내다. 현행 제품 전체의 보장값이 아니다.
+
+## 입력과 모델
+
+- 사용자는 Simple 입력 한도를 3,000자로 알려주었다.
+- 기존 계정 UI 관찰에서 Advanced Style 1,000자, Exclude 1,000자, Lyrics 5,000자가 기록되었다. 새 모드·계정·제품 변경 시 실제 입력 화면을 확인한다.
+- 사용자는 자신의 시험에서 v6-mini가 v6-pro와 v6-wild보다 더 잘 나왔다고 보고했다. 이 선호를 보존하되 모든 장르와 모델의 품질 순위로 일반화하지 않는다.
+- 이전 배치의 슬라이더와 설정은 당시 사용값이다. 새로운 작업의 최적 기본값이라는 근거는 없다.
+
+## 네거티브와 편집
+
+공식 Exclude 안내는 Custom의 Advanced Options를 설명한다. Simple의 본문에 하이픈 목록이나 Avoid 문장을 넣었다는 사실만으로 별도 Exclude 필드와 같은 처리가 보장된다고 쓰지 않는다.
+
+- [공식 Exclude 안내](https://help.suno.com/en/articles/3161921)
+- [v6 안내](https://help.suno.com/en/articles/13924481)
+- [Replace Section 안내](https://help.suno.com/en/articles/3271873)
+- [Song Editor 안내](https://help.suno.com/en/articles/6141505)
+
+이 링크는 기존 조사에서 사용한 출처다. 새 기능 판단에 사용할 때 현재 본문을 다시 확인한다. 기능의 존재는 원하는 도입·연주·드럼 차별화의 성공을 보장하지 않는다. 기존 사용자의 섹션 교체 실패는 해당 시도의 결과로 남긴다.
+
+세부 근거는 해당 프로젝트의 03_EVIDENCE_REGISTER.md, 10_PRODUCT_CAPABILITIES.md와 후속 현재 상태를 확인한다. 기존 음악의 네거티브 목록은 해당 프로젝트의 조건이므로 다른 장르에 복사하기 전에 새 요구와 대조한다.

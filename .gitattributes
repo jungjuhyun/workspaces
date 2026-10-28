@@ -1,0 +1,7 @@
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+# Preserve the imported project's original bytes and validator hashes.
+projects/lofi-playlist/** -text whitespace=cr-at-eol

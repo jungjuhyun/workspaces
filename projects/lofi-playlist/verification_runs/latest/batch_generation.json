@@ -1,0 +1,117 @@
+{
+  "validator_version": "0.17.0",
+  "scope": "Actual UI generation record integrity and preserved document criteria; not music/audio quality",
+  "test_only": false,
+  "passed": true,
+  "batch_record_checks": {
+    "requirements_T_G_preserved": true,
+    "original_fixed_cases_preserved": true,
+    "twenty_musical_designs_preserved": true,
+    "old_inputs_exact_new_registry_complete": true,
+    "new_package_limits_and_exclusions": true,
+    "review_precedes_requests_and_versions_current": true,
+    "actual_input_traceability": true,
+    "exactly18_single_requests_no_reroll": true,
+    "all36_outputs_returned_unique": true,
+    "all_outputs_have_real_links_displayed_length": true,
+    "forty_candidate_links_in_feedback_document": true,
+    "preexisting_candidates_not_agent_requests": true,
+    "settings_and_empty_lyrics": true,
+    "generation_count_and_output_register_agree": true,
+    "credit_observation_not_false_free_or_purchase": true,
+    "feedback_separate_from_audio_adoption": true,
+    "canonical_refs_resolve": true,
+    "past_verification_preserved_not_relabelled": true
+  },
+  "cases": [
+    {
+      "id": "C01",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C02",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C03",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C04",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C05",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C06",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C07",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C08",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C09",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C10",
+      "passed": true,
+      "test_only": true
+    },
+    {
+      "id": "C11",
+      "passed": true,
+      "test_only": true
+    }
+  ],
+  "mutation_tests": [
+    {
+      "test_only": true,
+      "defect": "missing_returned_candidate",
+      "rejected": true
+    },
+    {
+      "test_only": true,
+      "defect": "duplicated_request",
+      "rejected": true
+    },
+    {
+      "test_only": true,
+      "defect": "wrong_input_fingerprint",
+      "rejected": true
+    },
+    {
+      "test_only": true,
+      "defect": "duplicate_output_url",
+      "rejected": true
+    }
+  ],
+  "actual_counts": {
+    "requests": 18,
+    "new_outputs": 36,
+    "all_candidates": 40,
+    "observed_credit_decrease": 180
+  },
+  "limitations": [
+    "Individual charge updates asynchronous; total observed decrease recorded",
+    "Displayed durations are not measured downloaded audio",
+    "User audio feedback/adoption pending"
+  ],
+  "release_decision": "PASS_BATCH_OUTPUT_RECORD_SCOPE"
+}

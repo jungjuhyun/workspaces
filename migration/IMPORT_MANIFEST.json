@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "imported_date": "2026-10-28",
+  "timezone": "Asia/Seoul",
+  "source": "Existing suno_lofi_research documents; v0.19.1 release plus later 21_INTRO_AUDIO_COMPARISON.md",
+  "destination": "projects/lofi-playlist",
+  "files_count": 43,
+  "source_baseline_document_version": "0.19.1",
+  "preservation": "Every imported file copied byte-for-byte; existing state and validation are historical snapshots. Read CURRENT_STATUS.md for subsequent events.",
+  "files": [
+    {
+      "path": "00_START_HERE.md",
+      "bytes": 8771,
+      "sha256": "005190c8ed514114767f51d326efe6040a29003c55534ea06c531153c0245239"
+    },
+    {
+      "path": "01_RESEARCH_PLAN.md",
+      "bytes": 19975,
+      "sha256": "b980c95451bf09cbc0558b1a1f5fdf91ba026fdc016a95b70fdf5db9b199e77e"
+    },
+    {
+      "path": "02_PRODUCTION_STANDARD.md",
+      "bytes": 33473,
+      "sha256": "bf1decedee833a40d222eed6763c5124b5437fdba9fed0deb44e7e3635460740"
+    },
+    {
+      "path": "03_EVIDENCE_REGISTER.md",
+      "bytes": 161373,
+      "sha256": "15701247086112d4262134726f272b13f518537ac65a70746074003a61f0ea84"
+    },
+    {
+      "path": "04_PRODUCTION_HISTORY.md",
+      "bytes": 20651,
+      "sha256": "5e9fcb8931d5508fa2670c55329b879b99b40fc18397bb39ad9badf3a885944e"
+    },
+    {
+      "path": "05_DECISIONS_AND_PROGRESS.md",
+      "bytes": 54578,
+      "sha256": "9e4561c7f62e27cfb7301edd95cf5bd5b2ab985b49b4bf9f4c90de25825ebf7d"
+    },
+    {
+      "path": "06_SELECTION_CRITERIA.md",
+      "bytes": 39936,
+      "sha256": "38c222b9554063e6fad64a1591b08f6a1f2a7227d53cdd9f873299c105d38248"
+    },
+    {
+      "path": "07_REVIEW_REPORT.md",
+      "bytes": 90116,
+      "sha256": "2c99efa33fcb42c0579a2eb9ef9af493e1b2d8fe04186f29ebf84a2d52c5b367"
+    },
+    {
+      "path": "08_REDTEAM_REPORT.md",
+      "bytes": 19046,
+      "sha256": "d64ee957e6cda7202fc792b72a6e2ef6cb472b0d97b16ccdc7e4367555393ff0"
+    },
+    {
+      "path": "09_ORIGINAL_ANALYSIS.md",
+      "bytes": 17142,
+      "sha256": "38f8d91454147e9aa529c150e079dc9c3dff318737b50369592fc112ad587cb4"
+    },
+    {
+      "path": "10_PRODUCT_CAPABILITIES.md",
+      "bytes": 24068,
+      "sha256": "69ed78232e5ed6fc2e7860afe7d3b63c3480be27d96d59473ba447cbce5baf58"
+    },
+    {
+      "path": "11_CASE_RESEARCH.md",
+      "bytes": 11568,
+      "sha256": "f3681819b7bff9c9f2f76d7193165bed765828b361d1cb49526ca2ca6151070a"
+    },
+    {
+      "path": "12_MUSICAL_OPTIONS.md",
+      "bytes": 27430,
+      "sha256": "1490391ea3c76ec22e9969cd9016e8e5e12bc01c95c383cfe84401b46077e6dd"
+    },
+    {
+      "path": "13_EVIDENCE_AND_TEST_PLAN.md",
+      "bytes": 33865,
+      "sha256": "25dc05441ac46a42ecf07bcf5cb0630164482caa3f328983e83f215ded785254"
+    },
+    {
+      "path": "14_REQUEST_INTAKE.md",
+      "bytes": 21772,
+      "sha256": "42976b30ea8483354644d251df8419965fcc495b42b47a73546d75b56dda3682"
+    },
+    {
+      "path": "15_REPEATABLE_PRODUCTION_WORKFLOW.md",
+      "bytes": 26409,
+      "sha256": "49f39deac6f15c63c0dedba6333c85be109945b5200785d092f22a04c1a1ab5e"
+    },
+    {
+      "path": "16_FIRST_BATCH_DESIGNS.md",
+      "bytes": 53533,
+      "sha256": "1e37d57737f91c16240a17d4ca985bbdd8b31128e089bab669bb326a5375722f"
+    },
+    {
+      "path": "17_TRACK01_INPUT.md",
+      "bytes": 4483,
+      "sha256": "325362c90036f5f2225730fdaf183a8bec530f16f2f002d03bba7e02acba0fae"
+    },
+    {
+      "path": "18_PROMPT_REGISTER.md",
+      "bytes": 73012,
+      "sha256": "2d6302659c716baadff42882e8eff458acf293c8548ec7716d4deea46e8dd684"
+    },
+    {
+      "path": "19_BATCH_GENERATION.md",
+      "bytes": 8228,
+      "sha256": "4156320c0ce4a63034c88a84fdd06dbe373eb4229618b32a0ef09f6827ac5569"
+    },
+    {
+      "path": "20_OPENING_DRUM_REVISION.md",
+      "bytes": 6746,
+      "sha256": "bd95d22380953038b01d7db79ff471d2d6029a7435b94d8d24e21db149046975"
+    },
+    {
+      "path": "21_INTRO_AUDIO_COMPARISON.md",
+      "bytes": 5330,
+      "sha256": "7ba082055206495151338e9303f48f0111204227990ae8c9a18195bf60ad6573"
+    },
+    {
+      "path": "first_batch_designs.json",
+      "bytes": 151428,
+      "sha256": "3f8956e5bbe5b060a76f196e8f6b1303eb99e288836e7885f82f88fb7407cb21"
+    },
+    {
+      "path": "p5_workflow_cases.json",
+      "bytes": 48295,
+      "sha256": "46efd42c96d6a93588e72906812a7e6f0a1e1e797c08f76e2a18d924f8e36279"
+    },
+    {
+      "path": "project_state.json",
+      "bytes": 248737,
+      "sha256": "120ff7f2239053261d7753bf76b67bf5f4b941630051b42bb0191ea90e441ba3"
+    },
+    {
+      "path": "verification_runs/latest/batch_generation.json",
+      "bytes": 2925,
+      "sha256": "85ef124ec66894d24ae2589dcd5c0d9f1c08e4618f46d1f392cdecd4c3b46986"
+    },
+    {
+      "path": "verification_runs/latest/C01.json",
+      "bytes": 1009,
+      "sha256": "bc4baa85830f2f4fd0799c031d297084cea7b24a7c338b7a87f714143cfd07ce"
+    },
+    {
+      "path": "verification_runs/latest/C02.json",
+      "bytes": 1004,
+      "sha256": "35ef77d127f8ec8d25e045ca6a9211b9052e6c82978eabafd6a6562cb6d59788"
+    },
+    {
+      "path": "verification_runs/latest/C03.json",
+      "bytes": 1046,
+      "sha256": "bf3d9bfe0eeedc4b644313590f831b4863cb7780f89fb363a1384d41f0c0e8c6"
+    },
+    {
+      "path": "verification_runs/latest/C04.json",
+      "bytes": 1084,
+      "sha256": "4444ab0ed45a1f54c0b6410d87f58439f942ef8564be842d7c96e5cc53aae03d"
+    },
+    {
+      "path": "verification_runs/latest/C05.json",
+      "bytes": 962,
+      "sha256": "07b4bd209b4612a004076bbc79dd6b772af33afa1afbe30765c8fada05e9dc8c"
+    },
+    {
+      "path": "verification_runs/latest/C06.json",
+      "bytes": 1277,
+      "sha256": "f496c2504c903828416f202506b0e36422ff5d3fd19151a81e2494299b33f9de"
+    },
+    {
+      "path": "verification_runs/latest/C07.json",
+      "bytes": 1378,
+      "sha256": "894a23f57bee1e6960e0eb386abbe06e674b01bd113c58bd43bb3f329262e20f"
+    },
+    {
+      "path": "verification_runs/latest/C08.json",
+      "bytes": 1496,
+      "sha256": "d5994da258b45cf32a2651ed77ed23f97942d845bb8eb891bfcda544cd131826"
+    },
+    {
+      "path": "verification_runs/latest/C09.json",
+      "bytes": 1313,
+      "sha256": "da6a6aca655a202684af5f11fcd4d25bbf44440679f06a89f97ad80caa2f8e12"
+    },
+    {
+      "path": "verification_runs/latest/C10.json",
+      "bytes": 1014,
+      "sha256": "f6761b1b4addd7217d70da9b1439f4d6e7c8b453d31821dca7e709c3e1231be9"
+    },
+    {
+      "path": "verification_runs/latest/C11.json",
+      "bytes": 1072,
+      "sha256": "f645ae38edf00e387f7457c37f8bdf1cfe5389c61b79e60b6d809d3b0ede94bb"
+    },
+    {
+      "path": "verification_runs/latest/lead_feedback.json",
+      "bytes": 2929,
+      "sha256": "325a3637c54528997f478e0f54043544a1aef75812f5b844e87c8f11011cbd93"
+    },
+    {
+      "path": "verification_runs/latest/p5_dry_run.json",
+      "bytes": 70643,
+      "sha256": "4940f7247372030b4caba6b488f59aa4012bb96462d4c4315fda48c991529a72"
+    },
+    {
+      "path": "verification_runs/latest/summary.json",
+      "bytes": 2929,
+      "sha256": "325a3637c54528997f478e0f54043544a1aef75812f5b844e87c8f11011cbd93"
+    },
+    {
+      "path": "workflow_cases.json",
+      "bytes": 8134,
+      "sha256": "919a363a4ac0981f5c762d678cbeab810213ec560eff30098bf148253549c102"
+    },
+    {
+      "path": "workflow_validation.json",
+      "bytes": 2929,
+      "sha256": "325a3637c54528997f478e0f54043544a1aef75812f5b844e87c8f11011cbd93"
+    },
+    {
+      "path": "workflow_validator.py",
+      "bytes": 74054,
+      "sha256": "49c6d65759e9cb6ef97d63d9e883706a67b290db82c5f79516f67da074645a5e"
+    }
+  ]
+}

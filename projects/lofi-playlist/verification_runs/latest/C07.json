@@ -1,0 +1,55 @@
+{
+  "test_only": true,
+  "not_real_music_research_or_audio": true,
+  "case_id": "C07",
+  "input": {
+    "authorized": [
+      "document_review"
+    ],
+    "request": "review",
+    "events": [],
+    "has_reference": true,
+    "fixture_direct_observation": true,
+    "observed_tests": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T07",
+      "T08"
+    ],
+    "other_tracks": 0,
+    "full_length_observed": false,
+    "user_selected": true,
+    "repeat_validation": false
+  },
+  "expected": {
+    "audio": "PASS_OBSERVED_SCOPE",
+    "long_listening": "UNASSESSED",
+    "adoption": "USER_SELECTED",
+    "preset": "UNVALIDATED",
+    "can_generate": false
+  },
+  "actual": {
+    "next": "DOCUMENT_REVIEW",
+    "can_generate": false,
+    "blocked": [],
+    "effect_claim": "UNRESOLVED",
+    "audio": "PASS_OBSERVED_SCOPE",
+    "long_listening": "UNASSESSED",
+    "adoption": "USER_SELECTED",
+    "preset": "UNVALIDATED",
+    "candidate_kind": null,
+    "validated_effect": false,
+    "source_effect": "NOT_ESTABLISHED",
+    "diversity": "NOT_ASSESSED"
+  },
+  "passed": true,
+  "failures": {},
+  "action_record": {
+    "next_task": "DOCUMENT_REVIEW",
+    "actual_external_action_performed": false
+  },
+  "scope_note": "Hypothetical evidence flags exercise document routing; no real audio was heard."
+}
