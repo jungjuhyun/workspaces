@@ -98,3 +98,7 @@ Leave a little something here
 
 - https://online.berklee.edu/takenote/how-to-write-a-song-using-imagery-a-video-tutorial-with-andrea-stolpe/ : 감각적 세부, 벌스의 장면과 코러스의 중심 메시지, 두 번째 벌스의 구체화에 관한 작사 교육 자료.
 - https://online.berklee.edu/takenote/prosody-in-music-and-songwriting/ : 곡의 요소가 중심 감정과 목적을 지지하는 관계에 관한 교육 자료. 이 가사에 대한 평가 자체는 AI의 해석이며 해당 자료가 평가한 것이 아니다.
+
+## 후속 정정 — 사용자 피드백 우선
+
+사용자는 이 가사가 Suno가 작성한 것이며 셔츠·책·컵 같은 회상 소품을 Suno가 자주 사용하여 특별하지 않다고 평가했다. 앞선 AI 평가는 장면의 선명함을 인정하는 데 그쳐야 했으며, 이를 충분한 개성이나 새로움의 근거로 높게 평가한 것은 과했다. 원문의 의미 전달력과 별개로, 사용자가 원하는 작사 방식의 차별성에는 미달한다는 피드백을 보존한다. 새로운 방향은 03_GHOST_LYRIC_ANALYSIS.md와 CURRENT_STATUS.md의 최신 피드백을 따른다.
