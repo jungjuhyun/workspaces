@@ -55,3 +55,38 @@ Keep the low end compact and the midrange background spacious. Some short sounds
 ### 기능 관련 확인 출처
 
 2026-11-03 공식 본문 확인: [v6 FAQ](https://help.suno.com/en/articles/13924481)는 Simple에서 복합적인 음악 지시를 전달하는 경로, 모델 구분과 Variety 0의 용도를 설명한다. [Exclude 안내](https://help.suno.com/en/articles/3161921)는 Custom의 Advanced Options에 있는 별도 Exclude를 설명한다. 이 공식 기능 설명을 본 초안의 지시 준수 성능이나 계정 화면의 실제 관찰로 바꾸지 않는다.
+
+## R01-S001 — v0.1 첫 실행 / 2026-11-03
+
+- 사용자 실행 지시: 첫 생성·원곡 비교 단계 제안에 “진행해”. AI가 Suno UI를 조작했다.
+- 위 입력 전문은 수정하지 않았다. 실제 Simple 텍스트 영역의 길이 2,437자를 확인했다.
+- 실제 화면: Songs / Simple / **v6-mini**. 진입 당시 v6에서 v6-mini로 바꿨다. 입력 전 크레딧 표시: **12,072**.
+- 오디오·Voice·이미지·별도 가사·추가 Styles는 첨부하지 않았다. 본문의 보컬찹·제외 조건을 포함한 텍스트만 입력했다.
+- **제안 설정과 실제 설정의 차이:** 관찰한 Simple 화면과 추가 메뉴에는 Variety·Max Mode·Personalize 조절이 노출되지 않았다. 따라서 위의 0/끔 제안값을 적용했다고 기록하지 않는다. 이 첫 결과는 실제 UI가 제공한 Simple/v6-mini 설정의 기준 결과다. 다른 숨은 슬라이더 값을 추측하지 않는다.
+- Create 1회로 아래 2곡의 생성·다운로드를 확인했다. 크레딧 표시 12,072→12,062, **10 사용**. 추가 Create는 누르지 않았다.
+- 로그인은 처음 필요했으나 사용자가 직접 완료했다고 답했고 생성 화면 접근을 확인했다. 비밀번호·인증코드를 수집하거나 AI가 로그인했다고 기록하지 않는다.
+- 증거: 로컬 `generation_R01S001_20261103/execution_record.json`, `before_create.png`. 음원·스크린샷·원자료는 커밋하지 않는다.
+
+| 결과 | Suno 링크 | 실제 WAV 길이 |
+|---|---|---|
+| G01, Focused Groove | https://suno.com/song/2b947d64-cb2e-4c3c-a172-550a4d623cb8 | 221.600초 |
+| G02, Focused Groove | https://suno.com/song/658b3d33-09fe-4a28-91e1-6f63a7dc7af4 | 221.960초 |
+
+두 파일 모두 48 kHz stereo PCM16 WAV다. 원본 보관 위치는 `local/deep-house/generation_R01S001_20261103/R01-S001_G01_2b947d64.wav`, `R01-S001_G02_658b3d33.wav`다. 기존 Premier 다운로드 할당에서 2곡을 Unlock & Download했다. 다운로드 창은 첫 곡 전 19, 두 번째 곡 전 18을 표시했다. 새 구독/크레딧 구매는 하지 않았다.
+
+### Suno가 실제로 표시한 Styles 전문 — 두 결과에서 동일
+
+아래는 사용자가 입력한 원문과 다르다. Simple 경로에서 Suno가 정리한 출력 메타데이터를 UI의 Copy styles로 기록했다. 정확한 초시각·일부 세부 제외 문구가 이 표시에서 사라졌지만, 숨은 내부 처리까지 이 표시와 동일하다고 추측하지 않는다.
+
+```text
+Deep house for focused coding, 105 BPM steady 4/4, restrained hypnotic pulse and compact centered low end, Sparse opening with spacious softly repeating midrange chords and small pitched figures; subdued rounded muffled four-on-the-floor kick, quiet short backbeats and thin soft offbeat hats tucked behind the groove, Simple sustained G-flat root bass regions alternating with B-flat, with rare brief low D-flat turnaround; bass ducks gently around each kick and swells between beats, no busy runs, B-flat-minor color with upper harmony centered on B-flat, D-flat and F, Limited palette, overlapping sustained tails, softly repeating echoes, brightness and register changing between phrases, Full groove enters late after a long texture-led intro; brief groove gaps; middle section opens the upper register while the low pulse stays familiar; later strip back to airy pitched remnants before restoring the groove; gradually shed drums and bass into a fading harmonic tail, Intermittent short non-lyrical processed vocal fragments, spaced selectively with lingering stereo tails, never a lead vocal, Distinct dry low-end against roomy midrange, varied restrained reverbs, no abrupt drop
+```
+
+### Suno가 실제로 표시한 Lyrics — 두 결과에서 동일
+
+```text
+[Instrumental]
+[Non-lyrical vocal chops: brief, sparse, processed fragments]
+```
+
+위 가사 태그는 **AI가 가사 칸에 직접 작성한 입력이 아니다.** Simple 생성 후 서비스가 표시한 내용이다. 태그에 vocal chops가 있다는 사실은 실제 음원에 보컬찹이 있다는 증거가 아니다. 14의 측정과 사용자 청취 확인을 따로 기록한다. 음원에 대한 AI 직접 청취는 하지 않았다.
