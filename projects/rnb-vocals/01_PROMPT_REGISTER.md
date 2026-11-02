@@ -37,3 +37,7 @@ deep baritone, heavy rasp, forceful belting, excessive vocal runs
 ```
 
 설정 제안: Custom에서 해당 옵션이 있으면 Vocal Gender = Male. 모델·슬라이더는 Pack Light의 실제 사용값을 알기 전 임의 수치를 제시하지 않는다. 비교할 경우 Pack Light 사용값을 우선 유지한다. Persona는 Pack Light가 사용자의 Suno 생성곡이고 해당 메뉴가 제공되는 경우 검토할 선택지이며 적용하지 않았다.
+
+## V4 후속 실행 보고 — U01
+
+사용자가 V4와 같은 Style/Exclude를 직전 영어 번안 가사에 사용해 직접 생성했다고 보고했다. 사용자 청취 평가: 저스틴 비버와 비슷한 목소리가 나오지 않았다. 이번 입력 전문·설정·후속 답변은 07_USER_GENERATION_U01.md에 기록했다. Pack Light 원곡 모델은 v6, 이번 생성에서 Pack Light Persona는 미선택이라고 답했다. AI 청취나 생성은 하지 않았다. V4의 보컬 묘사가 유사도를 높인다는 근거 없는 기대를 더하지 않고, 다음에는 기존 Pack Light 음색의 재사용 경로를 우선 검토한다.
