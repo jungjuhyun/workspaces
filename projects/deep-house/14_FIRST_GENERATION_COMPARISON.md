@@ -96,6 +96,8 @@ G01은 해당 창의 중역이 원곡보다 중앙에 모이고, G02는 중역�
 - 로컬 `REF_review_intro_and_body.wav`, `G01_review_intro_and_body.wav`, `G02_review_intro_and_body.wav`를 대화에 제시했다. 전체 곡도 공통 -20 LUFS 사본으로 준비했다.
 - 질문 1: 어느 결과가 원곡의 음색·그루브·공간감에 더 가까운지, 또는 둘 다 먼지.
 - 질문 2: **제시한 구간에서** 생성곡 보컬찹이 들리는지. 전체 곡의 사용자 청취 판정을 받았다고 확대하지 않는다.
-- 현재 이 두 질문의 사용자 응답은 대기 중이다. AI의 청취·사용자 최종 채택으로 기록하지 않는다.
+- 사용자 응답(2026-11-03): **“생성 2가 더 가까움”**, **“두 곡 모두 들리지 않음”**. G02를 상대적으로 가까운 기준 후보로 보존하고, 제시한 비교 구간의 보컬찹 부재를 사용자 청취 사실로 반영한다. 최종 채택·전체 곡 모든 시각의 부재·AI 직접 청취로 확대하지 않는다.
+
+후속 제작의 우선 수정은 보컬찹 존재다. 이미 확인한 저음·편곡 차이를 해결 완료로 바꾸지는 않는다. 수정 전문·설정·실행은 13의 R01-S002와 `15_VOCAL_CHOP_REVISION.md`에서 이어간다.
 
 로컬 근거: `comparison_results.json`, `generated_original_bass_spectra.json`, `quiet_eight_second_windows.json`, `listening_review_manifest.json`, `first_generation_structure.png`, 생성 UI의 `generated_results.png`. 코드·기록만 커밋하고 음원·분리·사본·모델 출력은 커밋하지 않는다.

@@ -4,6 +4,7 @@ Demucs outputs, activity thresholds and pitch estimates are diagnostic evidence,
 not listening judgments, true MIDI, or automatic vocal identification.
 """
 from pathlib import Path
+import argparse
 import json
 import hashlib
 import time
@@ -35,7 +36,7 @@ def db(x):
 def read(path, limit=222):
     with sf.SoundFile(path) as f:
         sr = f.samplerate
-        x = f.read(frames=round(sr * limit), dtype='float32', always_2d=True)
+        x = f.read(frames=-1 if limit is None else round(sr * limit), dtype='float32', always_2d=True)
     return x, sr
 
 
@@ -64,7 +65,7 @@ def separate(label, path, model):
         print('REUSE_COMPLETED_STEMS',label,flush=True)
         return
     start = time.time()
-    x, sr = read(path)
+    x, sr = read(path, limit=None)
     x = librosa.resample(x.T, orig_sr=sr, target_sr=model.samplerate)
     wav = torch.from_numpy(x)
     ref = wav.mean(0)
@@ -112,17 +113,20 @@ def rhythm(drums):
     residual=((t-phase+per/2)%per)-per/2
     windows=[]
     for a in [40,80,112,168]:
-        y=drums[int(a*FS):int((a+32)*FS)]
+        b=min(a+32,len(drums)/FS)
+        if b-a<8:
+            continue
+        y=drums[int(a*FS):int(b*FS)]
         onset=librosa.onset.onset_strength(y=y,sr=FS,hop_length=128)
         tempo=librosa.feature.tempo(onset_envelope=onset,sr=FS,hop_length=128,start_bpm=110,max_tempo=180)
-        windows.append({'start_s':a,'bpm':float(tempo[0])})
+        windows.append({'start_s':a,'end_s':b,'bpm':float(tempo[0])})
     return {'bpm_fit':60/per,'period_s':per,'phase_s':phase,'low_pulse_candidates':len(t),
             'median_absolute_peak_grid_residual_ms':float(np.median(abs(residual))*1000),
             'onset_tempo_windows':windows}
 
 
 def analyze(label,path):
-    stereo,sr=read(path)
+    stereo,sr=read(path, limit=222 if label=='REF' else None)
     full = mono(stereo,sr)
     if label=='REF':
         folder=ROOT/'local/deep-house/reference/stems/htdemucs_6s/R01_Lost in the Echoes'
@@ -130,7 +134,7 @@ def analyze(label,path):
         folder=OUT/'stems'/label
     stems={}
     for part in PARTS:
-        x,s=read(folder/f'{part}.wav')
+        x,s=read(folder/f'{part}.wav', limit=222 if label=='REF' else None)
         stems[part]=mono(x,s)
     levels={p:db(frames_rms(y)) for p,y in stems.items()}
     length=min(map(len,levels.values()))
@@ -157,6 +161,9 @@ def analyze(label,path):
     for name,lo,hi in [('low',25,160),('mid',160,2000),('high',2000,16000)]:
         z=band(stereo,lo,hi,sr)
         for section,a,b in [('selected_body',body_start,body_end),('intro',0,18),('middle_target',112,144),('break_target',149,167),('return_target',168,200)]:
+            b=min(b,len(stereo)/sr)
+            if b<=a:
+                continue
             q=z[int(a*sr):int(b*sr)]
             mid=q.mean(axis=1);side=(q[:,0]-q[:,1])/2
             spatial.append({'section':section,'band':name,'interval_s':[a,b],
@@ -173,7 +180,7 @@ def analyze(label,path):
             energy[source][f'{lo}_{hi}']=float(db(np.sqrt(np.mean(q*q))))
     # High-band power uses 44.1/48 kHz stereo rather than the 11 kHz analysis signal.
     for source in ['master','drums']:
-        x,s=read(path if source=='master' else folder/'drums.wav')
+        x,s=read(path if source=='master' else folder/'drums.wav', limit=222 if label=='REF' else None)
         for lo,hi in [(2000,6000),(6000,16000)]:
             z=band(x,lo,hi,s)[int(body_start*s):int(body_end*s)]
             energy[source][f'{lo}_{hi}']=float(db(np.sqrt(np.mean(z*z))))
@@ -184,7 +191,7 @@ def analyze(label,path):
     midi=librosa.hz_to_midi(f0);tt=np.arange(len(midi))*hop/FS
     valid=(db(rms)>np.percentile(db(rms),95)-24)&(abs(midi-np.round(midi))<.35)
     r['bass_pitch_candidates']=[]
-    for a in np.arange(0,220,4):
+    for a in np.arange(0,len(bass)/FS,4):
         m=valid&(tt>=a)&(tt<a+4);ns=np.round(midi[m]).astype(int);weights=rms[m]**2
         totals={int(n):float(weights[ns==n].sum()) for n in np.unique(ns)}
         top=sorted(totals,key=lambda n:-totals[n])[:3]
@@ -210,6 +217,11 @@ def analyze(label,path):
 
 
 def main():
+    global OUT
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--run-dir',type=Path,default=OUT)
+    args=parser.parse_args()
+    OUT=args.run_dir.resolve()
     torch.set_num_threads(4)
     model=get_model('htdemucs_6s').eval()
     manifest=json.loads((OUT/'execution_record.json').read_text(encoding='utf-8'))
@@ -221,7 +233,7 @@ def main():
     results=[analyze(label,path) for label,path in tracks]
     (OUT/'comparison_results.json').write_text(json.dumps(results,indent=2,ensure_ascii=False),encoding='utf-8')
     fig,axes=plt.subplots(4,1,figsize=(15,12),sharex=True)
-    colors={'REF':'black','G01':'#246bb2','G02':'#d4701e'}
+    colors={r['label']:color for r,color in zip(results,['black','#246bb2','#d4701e'])}
     for r in results:
         for i,p in enumerate(PARTS):
             y=np.asarray(r['stem_rms_timeline'][p]);axes[i].plot(np.arange(len(y))*.25,y-r['lufs']-20,label=r['label'],color=colors[r['label']],lw=.8)
@@ -229,7 +241,7 @@ def main():
     for ax in axes:
         ax.legend(ncol=3)
         for a in [39,73,112,149,167,203]:ax.axvline(a,color='gray',alpha=.2)
-    axes[-1].set(xlim=(0,222),xlabel='Track time (s); reference landmarks are gray, not assumed generated section boundaries')
+    axes[-1].set(xlim=(0,max(r['seconds'] for r in results)),xlabel='Track time (s); reference landmarks are gray, not assumed generated section boundaries')
     fig.tight_layout();fig.savefig(OUT/'first_generation_structure.png',dpi=140);plt.close(fig)
     print('FIRST_GENERATION_COMPARISON_COMPLETE',flush=True)
 
