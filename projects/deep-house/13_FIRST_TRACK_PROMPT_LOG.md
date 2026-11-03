@@ -400,6 +400,8 @@ Locally synthesized 105 BPM harmonic demo: low Gb1 for four bars, Bb1 for three 
 
 ## R01-S007 — v0.7 / 2026-11-03 / 보컬 배치 수정안, 미입력
 
+후속: 이버전은실행하지않았다. 생성12의SW대조후아래v0.7.1로보완했으며실제다음입력후보는v0.7.1이다. 아래965/305/231자전문은그전제안의이력으로보존한다.
+
 S006 사용자 평가: G12가G05/G11/G12 중 가장 가깝지만 턱없이 부족하고, 보컬찹이 계속 이어져 노래처럼 들린다. 저음 골격의 신호 개선은 유지하되 전체 재현 달성으로 보지 않는다. 다음 한 시험에서는 보컬의 연속성을 줄이는 입력 묶음을 바꾼다. 큰 음색·공간·편곡 차이는 별도로 남겨 두며 EQ/리버브로 해결됐다고 보지 않는다.
 
 ### 통합 Styles — 965자
@@ -445,3 +447,51 @@ Ah
 - 평가: 원곡과 음량을 맞춰 **짧은 목소리 조각 뒤에 실제 목소리의 빈 공간이 생기는지** 확인한다. 분리 성분의 긴 꼬리와 발음은 구별한다. 기존 저음 골격 유지와 전체 음색/공간이G12보다 더 멀어지는지도 함께 본다. 기준은 첫 곡이며 원곡을 매8마디에 한 번 찹이 있는 고정 규칙으로 새로 단정하지 않는다.
 - 계획 상한은 일반Create1회/2곡/10크레딧. 이전S006 허용10크레딧은 사용 완료했으므로 이번 새 유료 실행은 허용을 받고 진행한다. 동일 방법에서 연속 가창이 지속되거나 보컬이 없어지면 같은 입력으로 추가Create를 계속 누르지 않는다.
 - 작성 상태: 로컬 통합 입력 준비. Suno 입력0회 / 생성0곡 / 사용0크레딧 / 출력URL 없음. 구매·새 업로드·EQ/리버브·최종 채택 없음. 로컬 `generation_R01S007_20261103/draft_record.json`에 제안값/실제 미실행을 구별했다.
+
+## R01-S007 — v0.7.1 / 2026-11-03 / SW 대조 후 보완, 미입력
+
+[SW 비교20](20_G12_SW_REVIEW_20261103.md)에서보컬배정활동의밀도차이,원본믹스의좁은중역과높은고역,큰비움부족을확인했다. 기존v0.7의보컬음절축소외에중역화음의주역할·둔한햇·브레이크의저음/드럼쉼을함께요청한다. 원곡에서모든음형/음절을확정전사한입력이아니며특정수치의EQ보정처방도아니다.
+
+### 통합 Styles — 993자
+
+```text
+Restrained hypnotic deep house at 105 BPM. Follow the guide's bass pitch sequence and slow harmonic pace: low G-flat held for four bars, B-flat for most of four bars, brief low D-flat turnaround, then G-flat again. Keep the upper B-flat, D-flat and F colors. Reimagine the guide with a soft rounded muffled kick, subdued backbeats, dull quiet offbeat hats and hazy electronic chord textures. Use occasional single clipped vocal-sample hits with human vowel formants. Cut each dry syllable short, then leave voice-free bars while its stereo echo fades. Let spacious midrange chord figures carry the motif; voice is an occasional accent. Sparse texture opening, voice hints near 0:20, full groove near 0:39. Brief gaps near 1:13 and 1:48; upper texture opens at 1:52. Remove bass and drums near 2:29, restore the familiar groove near 2:47. Subtract drums and bass after 3:23 into a fading harmonic tail. Center kick and bass; keep chord and voice tails spacious, restrained and soft. About 3:42.
+```
+
+### 통합 Exclude — 305자
+
+```text
+intelligible lyrics, continuous lead singing, long melisma, choir, busy moving bassline, frequent chord changes, extended solos, string-like leads, brass-like synth leads, piercing hats, hard snares, busy fills, EDM risers, festival drops, sustained vowel singing, wordless lead vocal, nonstop vocal chops
+```
+
+### 통합 Lyrics — 242자
+
+```text
+[Instrumental intro]
+
+[Single clipped vocal hit]
+Ah
+
+[Instrumental groove - voice rests]
+
+[Single clipped vocal hit]
+Oh
+
+[Instrumental groove - voice rests]
+
+[Break: bass and drums rest]
+
+[Return: single vocal accent]
+Ah
+
+[Instrumental outro]
+```
+
+### 필요한 설정과 검증 범위
+
+- Advanced / Cover / v6-mini. 참조는기존합성가이드 https://suno.com/song/1f7ead8c-0549-4cb8-ad59-fb1933432acb. 새오디오업로드나G12보컬을참조로물려받는경로는없다.
+- 제안설정은Duration222 / Weirdness50 / Style50 / Audio80 / Variety0 / MaxOff / PersonalizeOff / 성별지정없음. 이번에UI에입력하거나적용한값이아니다. 실제실행전현재화면과입력전문/참조를확인한다.
+- v0.7대비Styles의thin→dull,모티프를이끄는중역화음/간헐적보컬역할문장,Lyrics의브레이크/복귀태그를바꿨다. Exclude305자는그대로다. **비보컬Styles가문자단위로동일하다는v0.7설명은이보완본에는해당하지않는다.** 입력묶음이함께바뀌므로단일요소효과로해석하지않는다.
+- 판정은원곡첫곡이다. 생성후믹스청취에서보컬이실제로간헐적인지,중역배경/드럼음색이원곡에가까워졌는지,큰비움과저음골격이함께유지되는지확인한다. SW배정성분과Demucs는보조로대조하며같은음량의스템솔로만으로완성도를판정하지않는다.
+- 제안상한: Create1회/2곡/최대10크레딧. 기존S006의허용10크레딧은소진됐다. 이번사용자응답에따라SW분리·비교·입력준비를완료했고새유료실행은아직하지않았다. 같은입력의반복Create를자동으로늘리지않는다.
+- 현재Suno입력0회/생성0곡/사용0크레딧/출력URL없음. 로컬style/exclude/lyrics와draft_record는v0.7.1에맞게갱신했다. 실제청취평가·생성성공·EQ/리버브마감은아직없다.

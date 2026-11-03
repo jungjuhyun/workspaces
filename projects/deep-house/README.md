@@ -10,6 +10,7 @@
 | 원곡에서 확인한 제작 기준 | [12_FIRST_TRACK_SYNTHESIS_20261103.md](12_FIRST_TRACK_SYNTHESIS_20261103.md) |
 | 실제 입력 전문·설정·실행 기록과 미실행S007 수정안 | [13_FIRST_TRACK_PROMPT_LOG.md](13_FIRST_TRACK_PROMPT_LOG.md) |
 | 최근 가이드 시험과 “G12가 상대적으로 가깝지만 턱없이 부족”한 사용자 평가 | [19_HARMONIC_GUIDE_COMPARISON.md](19_HARMONIC_GUIDE_COMPARISON.md) |
+| G12의SW보완비교·A/B음원·S007 v0.7.1 수정근거 | [20_G12_SW_REVIEW_20261103.md](20_G12_SW_REVIEW_20261103.md) |
 
 ## 찾으신 기존 보고서
 
