@@ -8,9 +8,10 @@
 |---|---|
 | 최근 사용자 평가·미해결 사항·다음 행동 | [CURRENT_STATUS.md](CURRENT_STATUS.md) |
 | 원곡에서 확인한 제작 기준 | [12_FIRST_TRACK_SYNTHESIS_20261103.md](12_FIRST_TRACK_SYNTHESIS_20261103.md) |
-| 실제 입력 전문·설정·실행 기록과 미실행S007 수정안 | [13_FIRST_TRACK_PROMPT_LOG.md](13_FIRST_TRACK_PROMPT_LOG.md) |
+| 실제 입력 전문·설정·S007까지의 실행 기록 | [13_FIRST_TRACK_PROMPT_LOG.md](13_FIRST_TRACK_PROMPT_LOG.md) |
 | 최근 가이드 시험과 “G12가 상대적으로 가깝지만 턱없이 부족”한 사용자 평가 | [19_HARMONIC_GUIDE_COMPARISON.md](19_HARMONIC_GUIDE_COMPARISON.md) |
 | G12의SW보완비교·A/B음원·S007 v0.7.1 수정근거 | [20_G12_SW_REVIEW_20261103.md](20_G12_SW_REVIEW_20261103.md) |
+| 새 생성13·14의 실제 실행·신호 차이·75초 전체 믹스 청취 안내 | [21_S007_GENERATION_COMPARISON.md](21_S007_GENERATION_COMPARISON.md) |
 
 ## 찾으신 기존 보고서
 
@@ -34,7 +35,7 @@
 
 - 기준 원본: `../../assets/audio/deep-house/hyper-focus.  deep house music for coding.mp3`.
 - 현재 비교 음원/실행JSON/분리 결과: `../../local/deep-house/generation_R01S006_20261103/` — 실제C 일반 폴더.
-- S007: `../../local/deep-house/generation_R01S007_20261103/` — 입력 초안만 있고 새 생성 음원은 없다.
+- S007: `../../local/deep-house/generation_R01S007_20261103/` — G13/G14 WAV, 실제 입력·실행JSON, 분리/신호 결과와75초 전체 믹스 청취 파일.
 - 원곡의 첫222초와 분석 환경: `../../local/deep-house/first_track_20261102/`.
 - 수집 ZIP: `../../assets/channel-research/deeparchive_raw_data.zip`. 과거 채널 문서는 위 백업 구역에 있다.
 
