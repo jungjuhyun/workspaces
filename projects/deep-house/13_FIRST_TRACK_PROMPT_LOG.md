@@ -334,7 +334,7 @@ Restrained hypnotic deep house, 105 BPM in B-flat minor, Two-chord cycle: G-flat
 
 ## R01-S006 — v0.6 / 2026-11-03 / 로컬 연주 가이드 참조
 
-**상태 정리(2026-11-03):** 아래는 실행 전에 작성한 제안이다. 이후 사용자가 업로드/시험과 업로드 약관 동의를 허용했고, 가이드 업로드와 Create1회/2곡 생성·다운로드·분리/신호 비교를 완료했다. 12,022→12,012로10크레딧 사용. G11/G12는 CURRENT_STATUS.md에 기록했다. 저음의 기본 Gb1/Bb1 후보는 확인했지만 연결음/청취 유사성/편곡 판정은 남았고, 현재 음악은 사용자 요청으로 중단 상태다. 아래 '미실행/미적용/허용 대기'는 제안 작성 당시 상태이며 현재 실행을 취소하거나 되돌리는 지시가 아니다.
+**상태 정리(2026-11-03):** 아래는 실행 전에 작성한 제안이다. 이후 사용자가 업로드/시험과 업로드 약관 동의를 허용했고, 가이드 업로드와 Create1회/2곡 생성·다운로드·분리/신호 비교를 완료했다. 12,022→12,012로10크레딧 사용. 디스크 정리 후 최신 지시로 C의 실제 폴더에서 분석을 재개했다. Gb1/Bb1/짧은 Db1 연결은 원본 믹스와 대조했고, 편곡·공간 차이를 기록해 청취 비교를 준비했다([19](19_HARMONIC_GUIDE_COMPARISON.md)). 사용자 유사성 판단은 아직 남았다. 아래 '미실행/미적용/허용 대기'는 제안 작성 당시 상태이며 현재 실행을 취소하거나 되돌리는 지시가 아니다.
 
 ### 실행 전 작성한 제안
 
@@ -382,3 +382,18 @@ Oh
 - Advanced / Cover / v6-mini를 제안. Duration222 / Weirdness50 / Style50 / Audio80 / Variety0 / MaxOff / PersonalizeOff / 성별 지정 없음. 실제 UI 확인 전 적용값으로 기록하지 않는다.
 - Styles 905자 / Exclude238자 / Lyrics197자. 제목 R01-S006 Harmonic Guide. 허용 후 일반 Create1회/2곡만 계획. 현재 Create0회·업로드0회, 마지막 크레딧12,022.
 - 가이드가 음정 전달을 돕는지는 새 결과에서 검증해야 한다. 음색·그루브·편곡 재현을 보장하지 않는다. 가이드의 코드 보이싱·음색·덕킹 곡선은 AI 구현 선택이며 원곡 정밀 전사가 아니다. 상세 18.
+
+### 실제 실행 — S006
+
+- 사용자 “그럼 한번 시험해봐22.86초 연주가이드로”, 약관 “동의하고 시험 계속” 허용 후 실행했다. 위 통합 Styles905자 / Exclude238자 / Lyrics197자를 사용했다. 실제 Advanced Cover / v6-mini / Duration222 / Weirdness50 / Style50 / Audio80 / Variety0 / MaxOff / PersonalizeOff / 성별 지정 없음 확인. Create1회,2곡,12,022→12,012(10 사용). 이번 재개에서는 추가 생성하지 않았다.
+- 업로드는 Song Demo, 가이드 https://suno.com/song/1f7ead8c-0549-4cb8-ad59-fb1933432acb. 실제 설명 전문237자:
+
+```text
+Locally synthesized 105 BPM harmonic demo: low Gb1 for four bars, Bb1 for three and a half bars, Db1 for half a bar, then Gb1 for two bars. Soft G-flat major seventh and B-flat minor chord tones with restrained drums. Instrumental guide.
+```
+
+- G11: https://suno.com/song/94335ca6-a80d-4681-b0bf-8238ae6fb7de — 221.880초 /48kHz stereo PCM16 WAV.
+- G12: https://suno.com/song/e83d79e1-b157-4e5d-93c1-2f1b107786bb — 221.600초 /48kHz stereo PCM16 WAV.
+- 두 곡 페이지의 Cover of가 업로드 가이드 ID임을 확인했다. 실제 Copy lyrics는197자 원문과 일치했고 Copy styles는 문장부호 변경 및 Exclude 태그를 포함해 별도 로컬 파일로 보존했다. 입력 전문과 제품 표시를 구별한다.
+- WAV·UI 캡처·실행JSON·분리/비교 결과는 `local/deep-house/generation_R01S006_20261103/`에 있다. 디스크 부족으로 한때 D에 있었으나 최신 사용자 지시로34개 파일을 해시 검증해 C의 일반 폴더로 되돌렸다. 원본 G11/G12 SHA256은 실행JSON과 일치한다.
+- 원곡/G05/G11/G12 청취 파일은18초씩 -20LUFS로 맞췄다. 원곡 첫 곡222초 이내만 사용했다. 신호 결과·남은 차이·다음 판단은19에 기록했다. AI 직접 청취·사용자 새 청취·EQ/리버브·최종 채택은 아직 하지 않았다.
