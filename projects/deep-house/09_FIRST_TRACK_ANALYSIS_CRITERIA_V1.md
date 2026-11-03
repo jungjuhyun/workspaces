@@ -86,7 +86,7 @@
 
 ## 7. 기준의 출처와 적용 한계
 
-- 프로젝트 목표·기록 원칙: 사용자 대화, `common/WORK_METHOD.md`, `common/TEST_METHOD.md`, 06~08 문서. 10개 항목·상태·완료 규칙은 AI가 이번 프로젝트에 맞춰 명문화한 운영 기준이다.
+- 프로젝트 목표·기록 원칙: 사용자 대화, `common/WORK_METHOD.md`, `archive_backup/claude-documents_2026-11-03/common/TEST_METHOD.md` (당시 참고 문서, 현재 필수 절차가 아님), 06~08 문서. 10개 항목·상태·완료 규칙은 AI가 이번 프로젝트에 맞춰 명문화한 운영 기준이다.
 - [NIST: What are the objectives?](https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm): 목표를 먼저 문서화하고 핵심 목적을 구분한다는 방법 원칙을 참고했다. NIST가 이 곡의 소리·10개 항목·합격선을 규정한다는 뜻은 아니다.
 - [mir_eval transcription](https://mir-eval.readthedocs.io/latest/api/transcription.html), [onset](https://mir-eval.readthedocs.io/latest/api/onset.html): 음표/타격의 정답 비교는 참조 주석과 측정 조건을 필요로 한다. 라이브러리 기본 허용 창을 이 곡의 합격선으로 자동 채택하지 않았다.
 

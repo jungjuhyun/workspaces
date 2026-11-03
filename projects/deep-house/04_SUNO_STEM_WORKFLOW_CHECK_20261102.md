@@ -49,4 +49,4 @@
 - 모델 선정·실행 경로·비용·검증은 AI가 구체화한다. 사용자에게 모델 선택을 맡기지 않는다.
 - 기본 제작 가설과 실제 음원에서 확인한 특징을 구분하고, 후처리의 원래 설정은 미확정으로 남긴다.
 
-원자료: `projects/deep-house/03_DEEP_ARCHIVE_CHANNEL.md`, `projects/deep-house/deeparchive_raw_data.zip`. 이번 웹 조사로 이 파일을 로컬 작성했다. 음원·인증 정보·임시 전송 파일을 추가하지 않았다.
+원자료: `archive_backup/claude-documents_2026-11-03/projects/deep-house/03_DEEP_ARCHIVE_CHANNEL.md`, `projects/deep-house/deeparchive_raw_data.zip`. 이번 웹 조사로 이 파일을 로컬 작성했다. 음원·인증 정보·임시 전송 파일을 추가하지 않았다.

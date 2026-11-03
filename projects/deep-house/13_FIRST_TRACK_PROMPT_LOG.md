@@ -332,7 +332,11 @@ Oh
 Restrained hypnotic deep house, 105 BPM in B-flat minor, Two-chord cycle: G-flat major seventh chord for four bars, B-flat minor chord for four bars, Deep bass holds G-flat in its low first octave, then B-flat in the same octave; rare low D-flat turnaround before G-flat, Upper chord tones B-flat, D-flat and F, Long bass notes with gentle kick-synced dips, Muffled rounded four-on-floor kick, quiet short backbeats, thin subdued offbeat hats, hazy soft electronic chords, Sparse HUMAN VOCAL CHOPS: one or two clipped pitched ah/oh attacks, real gaps, lingering stereo echo tails, Texture-led opening; voice hints near 0:20, full bass/drum groove near 0:39, Brief gaps near 1:13 and 1:48, upper texture opens at 1:52, Remove bass and drums at 2:29, restore the groove at 2:47; deconstruct after 3:23 into a fading harmonic tail, Compact centered low end, spacious restrained chord and voice tails, About 3:42, ‑intelligible lyrics, ‑continuous lead singing, ‑long melisma, ‑choir, ‑busy moving bassline, ‑frequent chord changes, ‑extended solos, ‑string-like leads, ‑brass-like synth leads, ‑piercing hats, ‑hard snares, ‑busy fills, ‑EDM risers, ‑festival drops
 ```
 
-## R01-S006 — v0.6 / 2026-11-03 / 로컬 연주 가이드 참조 제안 — 미실행
+## R01-S006 — v0.6 / 2026-11-03 / 로컬 연주 가이드 참조
+
+**상태 정리(2026-11-03):** 아래는 실행 전에 작성한 제안이다. 이후 사용자가 업로드/시험과 업로드 약관 동의를 허용했고, 가이드 업로드와 Create1회/2곡 생성·다운로드·분리/신호 비교를 완료했다. 12,022→12,012로10크레딧 사용. G11/G12는 CURRENT_STATUS.md에 기록했다. 저음의 기본 Gb1/Bb1 후보는 확인했지만 연결음/청취 유사성/편곡 판정은 남았고, 현재 음악은 사용자 요청으로 중단 상태다. 아래 '미실행/미적용/허용 대기'는 제안 작성 당시 상태이며 현재 실행을 취소하거나 되돌리는 지시가 아니다.
+
+### 실행 전 작성한 제안
 
 텍스트만으로 정확한 저음 진행을 구현하지 못한 현재 결과에 따라, 분석한 골격을 새로 연주한 22.857초 가이드를 준비했다. 원곡 녹음·G05 음원을 복사한 파일이 아니다. 실제 업로드 허용을 질문했고, 사용자는 '프롬프트로 생성하는 데 무리가 있어서인가'라고 이유를 물었다. **질문은 업로드 허용 답변이 아니다.** AI가 현재 v6-mini 결과에서 확인한 저음 재현 한계와 보컬 입력 개선의 차이를 설명했으며 업로드·새 생성은 하지 않았다.
 

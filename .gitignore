@@ -17,3 +17,6 @@ node_modules/
 local/
 tmp/
 transfer_helpers/
+
+# Local historical archives; consult only when needed
+archive_backup/
