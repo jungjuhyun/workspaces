@@ -35,6 +35,7 @@
 
 ## 정리한 기록
 
+- 사용자 문의로 `04_PROMPT_SOUND_REPORT.md`의 백업 위치·29,561bytes·백업 원장SHA256 일치를 다시 확인했다. 실제 위치는 `archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md`다. 루트README와 [프로젝트 파일 안내](README.md)에 현재 문서·과거 기록·해당 원문 위치를 정리했다. 원본 음원/자료나 분석 폴더는 이번에 재배치하지 않았다. S007은 계속 미실행이다.
 - 활성 폴더에는 Codex 작성 분석/제작 문서와 코드를 유지했다. Claude 요청서·13곡 측정·채널 조사 문서·과거 실험 요약은 `archive_backup/claude-documents_2026-11-03/`에 검증 백업한 뒤 활성 위치에서 삭제했다.
 - 기존 `archive_backup/deep-house_2026-11-02/`는 그대로 보존한다. 과거 자료가 필요할 때만 백업을 확인한다. 음원·PDF·수집 ZIP은 사용자 입력 자료로 보존한다.
 - Codex의 누적 경과는 [작업 이력](CODEX_WORK_HISTORY.md), 현재 입력 전문은 [프롬프트 원장](13_FIRST_TRACK_PROMPT_LOG.md)을 읽는다. 과거 이력을 현재의 선행 조건으로 다시 적용하지 않는다.
