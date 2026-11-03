@@ -206,3 +206,175 @@ Oh
 ```text
 105 BPM hypnotic deep house, Retain the reference groove: rounded muffled four-on-floor kick, subdued backbeats, thin quiet offbeat hats, deep pulsing bass and hazy midrange electronic chords, Add intermittent HUMAN VOCAL CHOPS: one or two sharply clipped, pitched ah/oh syllables with recognizable vocal formants and short staccato mouth attacks, real gaps between phrases and lingering stereo echo tails, Keep each sung fragment brief; let only its tail linger, Introduce the voice after the sparse opening, then occasional accents over the groove and after the central break, Keep the restrained low energy, slow harmonic pace, short groove gaps, central break and familiar return, Center kick and bass, keep chord and vocal tails spacious, Finish by subtracting drums and bass into an echo tail, About 3:42, ‑intelligible sentences, ‑lyrical verses, ‑rap, ‑spoken narration, ‑continuous lead singing, ‑long melisma, ‑choir, ‑string-like leads, ‑brass-like synth leads, ‑piercing hats, ‑hard snare cracks, ‑busy fills, ‑EDM risers, ‑festival drops
 ```
+
+## R01-S004 — v0.4 / 2026-11-03 / G05 보컬 유지·저음 골격과 편곡 수정
+
+사용자 확인: G05/G06 제시 구간 모두 보컬찹이 들리고, 두 곡 중 G05가 더 가깝다. G02와 G05의 직접 우열을 추가로 확인받았다고 확대하지 않는다. 보컬찹 존재는 다시 미확인으로 되돌리지 않는다.
+
+G05의 저음 후보는 C2/Db2/Bb1/F1 등의 움직임을 보이며 원곡의 Gb1/Bb1 장기 교대와 다르다. 60~178초 범위에서 8초 평균 드럼 최저 창은 G05 138.25~146.25초, 원곡 150~158초다. 이 창을 정확한 섹션 시작·끝으로 쓰지 않는다. 이제 이 두 음악적 차이를 수정하고 짧은 Ah/Oh 입력은 유지한다.
+
+### 통합 Styles
+
+```text
+105 BPM restrained hypnotic deep house, 4/4, B-flat minor. Bass alternates G-flat1 for four bars and B-flat1 for four bars; only a brief low D-flat1 turnaround, then G-flat1 again. Harmony: G-flat major7 (Gb Bb Db F), then B-flat minor (Bb Db F); sparse upper Bb/Db/F figures. Keep bass notes long, with gentle kick-synced level dips. Retain the reference's muffled rounded kick, subdued backbeats, thin quiet offbeat hats and hazy electronic chords. Keep sparse recognizable HUMAN VOCAL CHOPS: one or two clipped pitched ah/oh attacks, real gaps and lingering stereo echo tails. Sparse texture opening, voice hints near 0:20, full groove near 0:39. Small gaps near 1:13 and 1:48; brighter upper texture at 1:52. Remove bass and drums near 2:29, return near 2:47. Deconstruct after 3:23 into a fading tail. Center the deep low end; keep chord and vocal tails spacious, restrained and soft. About 3:42.
+```
+
+### 통합 Exclude
+
+```text
+intelligible lyrics, continuous lead singing, long melisma, choir, busy moving bassline, frequent chord changes, extended solos, string-like leads, brass-like synth leads, piercing hats, hard snares, busy fills, EDM risers, festival drops
+```
+
+### 통합 Lyrics — S003과 동일
+
+```text
+[Intro]
+
+[Short wordless vocal chops]
+Ah
+Oh
+
+[Groove: sparse clipped vocal accents]
+Ah
+
+[Space for the echo]
+Oh
+
+[Central break: voice rests]
+
+[Return: short vocal chops]
+Ah
+Oh
+
+[Outro: echo fades]
+```
+
+### 필요한 설정과 실행 전 실제 관찰
+
+- Advanced / Cover / v6-mini. 참조는 G05: https://suno.com/song/a887f233-3a95-4173-aafb-efec3f100ab5.
+- G05 페이지의 Cover 진입은 기존 G02가 연결된 입력을 열었다. 이 상태를 G05 참조라고 기록하거나 실행하지 않았다. Audio→Browse의 Library에서 썸네일 ID a887f233…인 G05를 선택해, 실제 연결 제목 R01-S003 Vocal Chop / 길이 03:05를 확인했다.
+- Styles 901자 / Exclude 238자 / Lyrics 197자. Duration Custom **3:42 / 222초**, Weirdness50 / Style50 / Audio50 / Variety0 / MaxOff / PersonalizeOff / 성별 지정 없음.
+- S003의 Audio80에서 50으로 바꾼 이유는 기존 진행을 그대로 답습하는 것보다 요청한 저음·편곡 변경 여지를 주기 위해서다. 원곡 측정에서 도출한 최적값이나 고정 성공 조합은 아니다. 반주/음색 보존 보장은 하지 않는다.
+- Gbmaj7→Bbm의 명시적 음 구성은 12의 유력 화성 후보를 구현하려는 제작 선택이다. 원곡 모든 보이싱의 전사 완료로 표현하지 않는다. 저음은 대표 8마디의 Gb1 장기→Bb1 장기→짧은 Db1 연결을 목표로 한다.
+- 제목 R01-S004 Harmonic Return. 일반 Create 1회로 2곡만 계획한다. 설정·참조·스타일이 함께 바뀌므로 단일 문구의 인과 실험이 아니다. 작성 시점 실제 생성은 0회다.
+
+### 실제 실행 — S004
+
+- 위 실제 설정과 입력으로 Create 1회 → G07/G08 두 곡. 크레딧 12,042→12,032(10 사용), S001~S004 전체 40 사용.
+- G07: https://suno.com/song/4b8cd4c2-2137-4686-a512-850fc19fd712 — 221.640초 WAV.
+- G08: https://suno.com/song/f9d4a6b7-e720-47b9-9e04-6db12c82ff7e — 221.560초 WAV.
+- 각 곡 페이지의 Cover of 링크가 G05(a887f233…)임을 확인했다. 둘 다 48 kHz stereo PCM16 다운로드·분리 분석 완료. Copy lyrics는 위 197자와 같았다.
+- 저음은 G05의 C2/Db2/Bb1/F1 계열 순서를 계속 따라 Gb1/Bb1 변경 목표를 달성하지 못했다. G07/G08을 원곡에 더 가깝다고 채택하지 않고 G05를 보존한다. 이 실패를 단일 설정의 인과 규칙으로 확대하지 않는다. 상세 17.
+- 생성 전 입력 901자는 위 원문 그대로였지만 실제 Copy styles는 아래와 달랐다. `major7` 위치에 의도하지 않은 장르 표현이 표시된 관찰이며, 내부 처리/실제 장르를 이 표시만으로 확정하지 않는다.
+
+```text
+105 bpm restrained hypnotic deep house 4 4 b flat minor bass alternates g flat1 for four bars and b flat1 for four bars only a brief low d flat1 turnaround then g flat1 again harmony g flat Psychedelic Trance, Full-On gb bb db f then b flat minor bb db f sparse upper bb db f figures keep bass notes long with gentle kick synced level dips retain the reference s muffled rounded kick subdued backbeats thin quiet offbeat hats and hazy electronic chords keep sparse recognizable human vocal chops one or two clipped pitched ah oh attacks real gaps and lingering stereo echo tails sparse texture opening voice hints near 0 20 full groove near 0 39 small gaps near 1 13 and 1 48 brighter upper texture at 1 52 remove bass and drums near 2 29 return near 2 47 deconstruct after 3 23 into a fading tail center the deep low end keep chord and vocal tails spacious restrained and soft about 3 42, ‑intelligible lyrics, ‑continuous lead singing, ‑long melisma, ‑choir, ‑busy moving bassline, ‑frequent chord changes, ‑extended solos, ‑string-like leads, ‑brass-like synth leads, ‑piercing hats, ‑hard snares, ‑busy fills, ‑EDM risers, ‑festival drops
+```
+
+## R01-S005 — v0.5 / 2026-11-03 / 오디오 참조 없이 새 Advanced 생성
+
+Cover가 기존 저음 진행을 이어간 S004 결과에 따라, 오디오 조건을 제거하고 새 텍스트 생성으로 전환한다. G05는 음색 비교 앵커로 보존한다. G05 자체를 참조 오디오로 입력했다고 기록하지 않는다. Lyrics의 짧은 Ah/Oh 입력은 유지하며 화음 이름 `major7`은 `major seventh chord`로 풀어 쓴다. 표시상의 의도하지 않은 장르 문구를 피하려는 수정이며 성공 보장은 없다.
+
+### 통합 Styles
+
+```text
+Restrained hypnotic deep house, 105 BPM in B-flat minor. Two-chord cycle: G-flat major seventh chord for four bars, B-flat minor chord for four bars. Deep bass holds G-flat in its low first octave, then B-flat in the same octave; rare low D-flat turnaround before G-flat. Upper chord tones B-flat, D-flat and F. Long bass notes with gentle kick-synced dips. Muffled rounded four-on-floor kick, quiet short backbeats, thin subdued offbeat hats, hazy soft electronic chords. Sparse HUMAN VOCAL CHOPS: one or two clipped pitched ah/oh attacks, real gaps, lingering stereo echo tails. Texture-led opening; voice hints near 0:20, full bass/drum groove near 0:39. Brief gaps near 1:13 and 1:48, upper texture opens at 1:52. Remove bass and drums at 2:29, restore the groove at 2:47; deconstruct after 3:23 into a fading harmonic tail. Compact centered low end, spacious restrained chord and voice tails. About 3:42.
+```
+
+### 통합 Exclude
+
+```text
+intelligible lyrics, continuous lead singing, long melisma, choir, busy moving bassline, frequent chord changes, extended solos, string-like leads, brass-like synth leads, piercing hats, hard snares, busy fills, EDM risers, festival drops
+```
+
+### 통합 Lyrics
+
+```text
+[Intro]
+
+[Short wordless vocal chops]
+Ah
+Oh
+
+[Groove: sparse clipped vocal accents]
+Ah
+
+[Space for the echo]
+Oh
+
+[Central break: voice rests]
+
+[Return: short vocal chops]
+Ah
+Oh
+
+[Outro: echo fades]
+```
+
+### 필요한 설정·실행 범위
+
+- Songs / Advanced / v6-mini / 오디오·Voice 참조 없음. Styles 909자, Exclude 238자, Lyrics 197자.
+- Duration Custom 3:42(222초), Weirdness50 / Style50 / Variety0 / MaxOff / PersonalizeOff / 성별 지정 없음. 오디오를 제거하므로 Audio Influence를 적용했다고 기록하지 않음.
+- 제목 R01-S005 New Harmonic Base. Create 1회로 2곡만 계획. 저음·보컬·편곡·G05 방향을 대조한다. 오디오 참조를 제거하므로 G05 음색 보존을 보장하지 않는다.
+- 작성 시점 생성 0회. 새 진행도 구현되지 않으면 같은 텍스트 생성을 계속 반복하지 않고 현재까지의 한계를 기록한다. 구매·구독 변경·다른 레퍼런스 곡 분석은 하지 않는다.
+
+### 실제 실행 — S005
+
+- 위 통합 입력으로 오디오 조건 없는 Advanced/v6-mini 새 텍스트 Create 1회 → G09/G10 두 곡. 생성 전 Duration222 / Weirdness50 / Style50 / Variety0 / MaxOff / PersonalizeOff와 오디오 조건 0개를 실제 확인했다. 크레딧 12,032→12,022(10 사용), S001~S005 전체 50 사용.
+- G09: https://suno.com/song/3bb0a259-95a1-422f-8e66-06651e8b9f50 — 실제 WAV **147.200초**. Custom222 입력을 실제 길이로 소급하지 않는다.
+- G10: https://suno.com/song/9253e9b1-c218-4524-bcd1-396448daa8eb — 실제 WAV **221.560초**.
+- 둘 다 48 kHz stereo PCM16 다운로드·분리 분석 완료. 보컬 배정 성분 최고 .25초 RMS 약 -20.05/-20.20 dBFS. 새 곡의 사용자 청취 확인이나 AI 직접 청취로 바꾸지 않는다.
+- 저음은 Bb1/Ab1/Eb1 등의 후보로 바뀌어 원곡의 Gb1/Bb1 교대 목표 미달이다. G10 원본 64.25~64.75초의 약 38.6/77.5/116.3/154.9 Hz 계열도 Eb1 후보를 지지한다. 모든 피크를 독립 음표로 해석하거나 전체 조성을 확정하지 않는다.
+- G05를 현재 비교 후보로 보존한다. S004 Cover 반복과 S005 동일 텍스트 재생성 반복을 종료한다. G09/G10을 원곡에 더 가깝다고 채택하거나 사용자에게 다시 보컬 존재를 확인하도록 요구하지 않았다. 신호 근거·실패 범위는 17.
+- 실제 Copy lyrics는 위 197자와 같았다. Copy styles는 두 곡에서 같고, 이전의 의도하지 않은 장르 문구는 표시되지 않았다. 이 표시 변화가 소리 변화의 원인이라는 결론은 아니다.
+
+```text
+Restrained hypnotic deep house, 105 BPM in B-flat minor, Two-chord cycle: G-flat major seventh chord for four bars, B-flat minor chord for four bars, Deep bass holds G-flat in its low first octave, then B-flat in the same octave; rare low D-flat turnaround before G-flat, Upper chord tones B-flat, D-flat and F, Long bass notes with gentle kick-synced dips, Muffled rounded four-on-floor kick, quiet short backbeats, thin subdued offbeat hats, hazy soft electronic chords, Sparse HUMAN VOCAL CHOPS: one or two clipped pitched ah/oh attacks, real gaps, lingering stereo echo tails, Texture-led opening; voice hints near 0:20, full bass/drum groove near 0:39, Brief gaps near 1:13 and 1:48, upper texture opens at 1:52, Remove bass and drums at 2:29, restore the groove at 2:47; deconstruct after 3:23 into a fading harmonic tail, Compact centered low end, spacious restrained chord and voice tails, About 3:42, ‑intelligible lyrics, ‑continuous lead singing, ‑long melisma, ‑choir, ‑busy moving bassline, ‑frequent chord changes, ‑extended solos, ‑string-like leads, ‑brass-like synth leads, ‑piercing hats, ‑hard snares, ‑busy fills, ‑EDM risers, ‑festival drops
+```
+
+## R01-S006 — v0.6 / 2026-11-03 / 로컬 연주 가이드 참조 제안 — 미실행
+
+텍스트만으로 정확한 저음 진행을 구현하지 못한 현재 결과에 따라, 분석한 골격을 새로 연주한 22.857초 가이드를 준비했다. 원곡 녹음·G05 음원을 복사한 파일이 아니다. 실제 업로드 허용을 질문했고, 사용자는 '프롬프트로 생성하는 데 무리가 있어서인가'라고 이유를 물었다. **질문은 업로드 허용 답변이 아니다.** AI가 현재 v6-mini 결과에서 확인한 저음 재현 한계와 보컬 입력 개선의 차이를 설명했으며 업로드·새 생성은 하지 않았다.
+
+### 통합 Styles
+
+```text
+Restrained hypnotic deep house at 105 BPM. Follow the guide's bass pitch sequence and slow harmonic pace: low G-flat held for four bars, B-flat for most of four bars, brief low D-flat turnaround, then G-flat again. Keep the upper B-flat, D-flat and F colors. Reimagine the guide with a soft rounded muffled kick, subdued backbeats, thin quiet offbeat hats and hazy electronic chord textures. Add sparse HUMAN VOCAL CHOPS: one or two sharply clipped pitched ah/oh attacks with recognizable vocal formants, real gaps and lingering stereo echo tails. Sparse texture opening, voice hints near 0:20, full groove near 0:39. Brief gaps near 1:13 and 1:48; upper texture opens at 1:52. Remove bass and drums near 2:29, restore the familiar groove near 2:47. Subtract drums and bass after 3:23 into a fading harmonic tail. Center kick and bass; keep chord and voice tails spacious, restrained and soft. About 3:42.
+```
+
+### 통합 Exclude
+
+```text
+intelligible lyrics, continuous lead singing, long melisma, choir, busy moving bassline, frequent chord changes, extended solos, string-like leads, brass-like synth leads, piercing hats, hard snares, busy fills, EDM risers, festival drops
+```
+
+### 통합 Lyrics
+
+```text
+[Intro]
+
+[Short wordless vocal chops]
+Ah
+Oh
+
+[Groove: sparse clipped vocal accents]
+Ah
+
+[Space for the echo]
+Oh
+
+[Central break: voice rests]
+
+[Return: short vocal chops]
+Ah
+Oh
+
+[Outro: echo fades]
+```
+
+### 필요한 설정과 전송 범위 — 제안값, 미적용
+
+- 업로드할 제안 파일: `local/deep-house/harmonic_guide_20261103/R01_harmony_guide_10bars_105bpm.wav`만. 합성 저음·화음·드럼 22.857초, 105 BPM, 10마디, 48 kHz stereo PCM16. 원곡 녹음·보컬·개인정보를 포함하지 않는다.
+- Advanced / Cover / v6-mini를 제안. Duration222 / Weirdness50 / Style50 / Audio80 / Variety0 / MaxOff / PersonalizeOff / 성별 지정 없음. 실제 UI 확인 전 적용값으로 기록하지 않는다.
+- Styles 905자 / Exclude238자 / Lyrics197자. 제목 R01-S006 Harmonic Guide. 허용 후 일반 Create1회/2곡만 계획. 현재 Create0회·업로드0회, 마지막 크레딧12,022.
+- 가이드가 음정 전달을 돕는지는 새 결과에서 검증해야 한다. 음색·그루브·편곡 재현을 보장하지 않는다. 가이드의 코드 보이싱·음색·덕킹 곡선은 AI 구현 선택이며 원곡 정밀 전사가 아니다. 상세 18.
