@@ -1,51 +1,40 @@
 # 음악 작업 폴더
 
-현재 작업 문서·코드와 사용자 제공 음원·자료를 관리한다. 2026-11-03 사용자 지시로 외부 이관본과 Claude 작성 문서를 활성 위치에서 제거하고, Codex 후속 기록을 분리해 남겼다.
+현재 작업에는 Codex가 작성한 문서·코드·생성/분석 결과를 남긴다. Claude의 기존 문서·실험·음원 분리 자료·백업은 **[claude/](claude/README.md)** 한곳에 모았다. 사용자 제공 음원·PDF·수집ZIP은 **[assets/](assets/README.md)** 에 있다.
 
-## 파일을 찾을 때
+## 현재 작업 시작점
 
-| 찾는 내용 | 실제 위치 |
+먼저 [AGENTS.md](AGENTS.md), [공통 작업 방법](common/WORK_METHOD.md), 해당 프로젝트의 현재 상태를 읽는다.
+
+| 프로젝트 | 시작점 |
 |---|---|
-| 딥하우스 문서 전체 안내 | [projects/deep-house/README.md](projects/deep-house/README.md) |
-| 현재 진행 상황 | [CURRENT_STATUS.md](projects/deep-house/CURRENT_STATUS.md) |
-| 현재까지의 통합 입력 전문 | [13_FIRST_TRACK_PROMPT_LOG.md](projects/deep-house/13_FIRST_TRACK_PROMPT_LOG.md) |
-| `04_PROMPT_SOUND_REPORT.md` | [백업 원문](archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md) — 기존 활성 경로에서 제거한 파일 |
+| 딥하우스 첫 곡 재현 | [파일 안내](projects/deep-house/README.md) · [현재 상태](projects/deep-house/CURRENT_STATUS.md) · [입력 원장](projects/deep-house/13_FIRST_TRACK_PROMPT_LOG.md) |
+| 로파이 jazzhop·hiphop | [Codex 후속 기록의 현재 상태](projects/lofi-playlist/CURRENT_STATUS.md) |
+| R&B 보컬·가사 | [현재 상태](projects/rnb-vocals/CURRENT_STATUS.md) |
 
-`04_PROMPT_SOUND_REPORT.md`는 이름을 바꾼 것이 아니다. 정리 때 백업 후 활성 위치에서 제거했으며, 2026-11-03 백업 원장의 SHA256과 실제 파일 일치를 다시 확인했다. 백업의 당시 내용은 현재 제작 지시·승인과 구별한다.
+## 폴더 구분
 
-## 시작점
-
-1. [작업 규칙](AGENTS.md), [공통 작업 방법](common/WORK_METHOD.md)을 읽는다.
-2. 해당 프로젝트의 현재 상태를 읽고 필요한 원장·근거만 확인한다.
-
-| 프로젝트 | 현재 상태 |
+| 폴더 | 내용 |
 |---|---|
-| 딥하우스 첫 곡 재현 | [CURRENT_STATUS.md](projects/deep-house/CURRENT_STATUS.md) |
-| 로파이 jazzhop·hiphop 후속 제작 | [CURRENT_STATUS.md](projects/lofi-playlist/CURRENT_STATUS.md) |
-| R&B 보컬·가사 | [CURRENT_STATUS.md](projects/rnb-vocals/CURRENT_STATUS.md) |
+| projects/ | Codex의 프로젝트 문서·입력 원장·분석 코드 |
+| local/deep-house/ | Codex의 첫 곡 분석·S001~S007·합성 가이드와 현재 분석에 필요한 참조 파일 |
+| assets/ | 사용자 제공 원본 음원9개·PDF2개·채널 조사ZIP |
+| claude/ | Claude의 기존 자료, 과거 실험/분리 파일과 기존 백업. 로파이 jazzhop·hiphop 백업도 이 안에 별도 보존 |
+| common/, templates/ | Codex 공통 작업 규칙·제품 관찰·요청 틀·이관 감사 기록 |
+| local/tmp/, local/maintenance/ | 임시 PDF 추출물, 정리 도구·이동 원장·검증 기록 |
 
-공통 제품 관찰 범위는 [SUNO_NOTES.md](common/SUNO_NOTES.md), 새 의뢰 틀은 [PROJECT_BRIEF.md](templates/PROJECT_BRIEF.md)에 있다. 장르별 음악 조건을 다른 프로젝트에 자동 적용하지 않는다.
+루트에는 음원·PDF·이전 실험 폴더를 두지 않는다. 생성/분석 작업은 계속C드라이브에서 한다.
 
-## 백업 — 필요할 때만 확인
+## 찾으신 보고서
 
-- [기존 딥하우스 백업](archive_backup/deep-house_2026-11-02/): 기존59개 파일을 변경하지 않았다.
-- [로파이 jazzhop·hiphop 별도 백업](archive_backup/lofi-jazzhop-hiphop_2026-11-03/README.md): 정리 전 전체 문서와 0.19.1 이관 원본을 보존했다.
-- [Claude 문서 추가 백업과 해시](archive_backup/claude-documents_2026-11-03/BACKUP_MANIFEST.json): 활성 위치에서 제거한 딥하우스/공통 문서와 혼합 문서의 정리 전 사본이다.
+[04_PROMPT_SOUND_REPORT.md 원문](claude/archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md)
 
-백업은 현재 지시나 생성 승인으로 쓰지 않는다. 필요한 원문을 확인할 때만 열고 현재 적용 범위를 구분한다. migration/의 이관 기록과 검증 JSON은 당시의 Codex 관리 기록이며 현재 파일 구조나 음악 품질을 보증하지 않는다.
+2026-11-03 문서 정리 때 백업한 파일이며 이번에는 claude 아래로 이동했다. 기존 백업 내용은 변경하지 않았다. 현재 제작 기준은 프로젝트CURRENT_STATUS와입력 원장이 우선한다.
 
-## 음원과 저장
+## 보존과 검증
 
-루트 음원·PDF, Deep house playlist/, local/의 원본·분리·분석 데이터와 수집 ZIP은 사용자 입력/작업 자산으로 보존했다. 문서 작성자 정리만으로 이를 삭제하지 않는다. local/와 음원·임시물·인증 정보·archive_backup/은 Git에 커밋하지 않는다.
+2026-11-03 실제39개 경로를 재배치했다. 이동한808개 파일(22,434,019,238bytes)의SHA256을 전후 대조했다. 현재 분석에서 재사용하는 첫 곡 참조13개는 별도 사본을 만들고 해시 일치를 확인했다. 재사용 참조를 Codex 신규 제작 음원으로 세지 않는다.
 
-| 구역 | 현재 들어 있는 것 |
-|---|---|
-| 루트의 음원9개·PDF2개, `Deep house playlist/` | 원본/참고 자료. 아직 별도 자료 폴더로 재배치하지 않았다 |
-| `projects/` | 현재 작업 상태·기준·입력 원장과 누적 조사/실험 기록 |
-| `local/deep-house/` | 원본/분리/비교 음원, 실행 환경, S001~S007 폴더와 이전 실험JSON 등 |
-| `archive_backup/` | 활성 위치에서 제거한 과거 문서와 기존 백업 |
-| `common/`, `templates/`, `migration/`, `tmp/` | 공통 규칙, 요청 틀, 과거 이관 기록, 임시 PDF 추출물 |
+상세 이동표·이전/현재 경로·해시는 local/maintenance/workspace_reorganization_20261103.json에 있다. 이전 백업 문서의 절대 경로는 당시 기록으로 보존했으므로 찾을 때 [claude 안내](claude/README.md)와 이동표를 사용한다.
 
-지난 정리는 문서 작성자별 보존·제거 작업이었다. 원본 자료·현재 작업·과거 실험을 폴더 단위로 완전히 분리한 상태는 아니다. 이번 위치 안내 보완에서는 원본 파일과 기존 작업 경로를 이동하지 않았다.
-
-수정 전 Git 상태와 원격 변경을 확인한다. 로컬 편집·커밋·원격 반영을 구별하고, 사용자가 요청하지 않은 원격 반영은 하지 않는다.
+음원·원자료·모델/실행 환경·백업은Git에 넣지 않는다. 문서·코드·안내만 로컬 커밋하며 원격 반영 여부는 별도로 보고한다.

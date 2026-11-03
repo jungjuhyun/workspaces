@@ -1,6 +1,6 @@
 # 로파이 프롬프트 원장 — Codex 후속 작성분
 
-2026-11-03 정리. Codex가 추가한 PRM-000028~000047의 전문과 실행 기록을 보존했다. PRM-000001~000027과 이전 이관 원장은 [정리 전 백업](../../archive_backup/lofi-jazzhop-hiphop_2026-11-03/projects/lofi-playlist/18_PROMPT_REGISTER.md)에 있다.
+2026-11-03 정리. Codex가 추가한 PRM-000028~000047의 전문과 실행 기록을 보존했다. PRM-000001~000027과 이전 이관 원장은 [정리 전 백업](../../claude/archive_backup/lofi-jazzhop-hiphop_2026-11-03/projects/lofi-playlist/18_PROMPT_REGISTER.md)에 있다.
 
 ## 2026-10-29 추가20곡 — 드럼10 / 퍼커션5 / 무타악5
 

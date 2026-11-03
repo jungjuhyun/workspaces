@@ -13,7 +13,7 @@
 
 ## 찾으신 기존 보고서
 
-[04_PROMPT_SOUND_REPORT.md 백업 원문](../../archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md)
+[04_PROMPT_SOUND_REPORT.md 백업 원문](../../claude/archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md)
 
 기존 `projects/deep-house/04_PROMPT_SOUND_REPORT.md`는 문서 정리 때 백업 후 활성 위치에서 제거했다. 실제 백업은29,561bytes이며, 백업 원장과SHA256 일치를 확인했다. 파일명 변경이나 현재S006 비교 문서로의 대체가 아니다. 원문의 당시 실험·피드백과 현재 실험을 혼합하지 않는다.
 
@@ -31,10 +31,10 @@
 
 ## 음원·원자료 위치
 
-- 기준 원본: 루트 `hyper-focus.  deep house music for coding.mp3`.
+- 기준 원본: `../../assets/audio/deep-house/hyper-focus.  deep house music for coding.mp3`.
 - 현재 비교 음원/실행JSON/분리 결과: `../../local/deep-house/generation_R01S006_20261103/` — 실제C 일반 폴더.
 - S007: `../../local/deep-house/generation_R01S007_20261103/` — 입력 초안만 있고 새 생성 음원은 없다.
 - 원곡의 첫222초와 분석 환경: `../../local/deep-house/first_track_20261102/`.
-- 수집 ZIP: `deeparchive_raw_data.zip`. 과거 채널 문서는 위 백업 구역에 있다.
+- 수집 ZIP: `../../assets/channel-research/deeparchive_raw_data.zip`. 과거 채널 문서는 위 백업 구역에 있다.
 
-원본/분석 데이터를 이번 안내 보완 때문에 이동하거나 삭제하지 않았다. 문서 탐색 안내 추가와 실제 폴더 재배치는 구별한다.
+사용자 지시에 따라 실제 재배치를 마쳤다. [claude/](../../claude/README.md)에 기존 작업과백업을, [assets/](../../assets/README.md)에 사용자 원본을 모았다. Codex의첫 곡 분석·생성S001~S007·합성 가이드는local/deep-house에 남겼으며 필요한R01 참조13개도 검증 사본으로 유지한다. 상세 이동표는 `../../local/maintenance/workspace_reorganization_20261103.json`.

@@ -1,10 +1,10 @@
 # 딥하우스 현재 상태
 
-갱신: 2026-11-03, Asia/Seoul. C에서 재개한S006의75초 비교에 사용자 응답을 받았다. G12가 세 후보 중 가장 가깝지만 턱없이 부족하고, 보컬찹이 이어져 노래처럼 들린다는 평가다. S007의 보컬 배치 수정 입력을 준비했으며 새 유료 실행은 하지 않았다.
+갱신: 2026-11-03, Asia/Seoul. 사용자 최신 지시로 Claude/기존 자료를루트의claude 폴더로 모으고 원본 자료를assets로 실제 재배치했다. 현재 음악 상태는S006 사용자 평가 수신/S007 입력 준비이며 새 유료 실행은 하지 않았다. G12가 세 후보 중 가장 가깝지만 턱없이 부족하고 보컬찹이 이어져 노래처럼 들린다는 평가를 유지한다.
 
 ## 현재 목표와 기준
 
-- 기준 음원: 루트 `hyper-focus.  deep house music for coding.mp3`의 첫 곡 Lost in the Echoes, **0~222초만**. 다른 곡으로 분석 범위를 넓히지 않는다.
+- 기준 음원: `assets/audio/deep-house/hyper-focus.  deep house music for coding.mp3`의 첫 곡 Lost in the Echoes, **0~222초만**. 다른 곡으로 분석 범위를 넓히지 않는다.
 - 그루브·음색·공간감·편곡을 최대한 가깝게 재현한다. Suno 생성·선곡 후 EQ/리버브 중심으로 마감한다. 원곡의 실제 소리가 기준이며 체크리스트 점수나 모델 설명이 대신하지 않는다.
 - 원곡 약105 BPM, 대표 저음 Gb1/Bb1 장기 교대와 짧은 Db1 연결, 중앙 저역/넓은 중역, 약149~167초 큰 비움 등이 확인됐다. 상세는 [통합 명세](12_FIRST_TRACK_SYNTHESIS_20261103.md).
 - 사용자는 원곡 약20초·93초의 전경을 보컬찹으로 확인했다. 생성물의 사용자 청취와 AI 신호 측정을 구별하며 AI 직접 청취를 주장하지 않는다.
@@ -25,9 +25,9 @@
 
 ## 저장 위치와 다음 행동
 
-- S006 실제 작업 폴더는 **`C:/workspaces/Lo-fi archive/local/deep-house/generation_R01S006_20261103/`**이다. 이제 Junction이 아닌 C의 일반 디렉터리다. 이동 전34개 파일850,707,376bytes를 복사하고 전부 SHA256 일치를 확인한 뒤 경로를 교체했다. C 여유 약52.9GB.
+- S006 실제 작업 폴더는 **`C:/workspaces/Lo-fi archive/local/deep-house/generation_R01S006_20261103/`**이다. 이제 Junction이 아닌 C의 일반 디렉터리다. 이동 전34개 파일850,707,376bytes를 복사하고 전부 SHA256 일치를 확인한 뒤 경로를 교체했다.
 - C 공간 부족 당시 D로 옮겨 G12 분리 출력을 복구한 이력은 유지한다. 기존 완성 스템을 헤더·길이·완료 기록과 함께 검사해 재사용했으며 다시 분리하지 않았다. 이번 세부 분석과 청취 파일은 C에서 만들었다.
-- 기존 연결 삭제가 자동 안전 검사에 차단돼, 연결은 `local/deep-house/generation_R01S006_20261103_old_D_link`로 이름만 바꿔 보존했다. D의 이전 사본도 남았으나 현재 분석은 읽거나 쓰지 않는다. 경로·34개 해시 확인 기록은 `local/deep-house/S006_return_to_C_verification_20261103.json`.
+- 기존 연결 삭제가 자동 안전 검사에 차단돼 이름을 바꿔 보존했고, 이번 폴더 정리에서 그 연결만 `local/maintenance/S006_old_D_link`로 옮겼다. D의 이전 사본도 남았으나 현재 분석은 읽거나 쓰지 않는다. 당시34개 해시 확인 기록은 `local/deep-house/S006_return_to_C_verification_20261103.json`, 이번 경로 이동표는 `local/maintenance/workspace_reorganization_20261103.json`.
 - 사용자 요청으로 음악을 멈추고 C 캐시를 정리했다. pip약7.9GB와 Premiere 미디어/파형 캐시약23.8GB를 삭제해 C 여유가21.9GB→약53.7GB로 늘었다. 원본·프로젝트·분석 자료는 보존했다. 기록은 D:/CodexAudio/disk_cleanup_20261103.json.
 - 청취 파일: `local/deep-house/generation_R01S006_20261103/REF_G05_G11_G12_review75s.wav`. 원곡92~110초 → G05 61.5~79.5초 → G11 88~106초 → G12 81~99초, 각각18초/-20LUFS, 사이1초 무음. 사용자 확인된 원곡/G05 보컬 사건과 새 곡의 분리 성분 활동 후보를 포함한다. 동일 편곡 위치나 자동 보컬 검출로 보지 않는다.
 - **다음 행동:** [원장S007](13_FIRST_TRACK_PROMPT_LOG.md)에 통합 입력을 준비했다. 이미 업로드한 합성 가이드/설정/비보컬 Styles는 유지하고, 명시적 Ah/Oh를6개에서3개로 줄이며 그 사이 연주 구간을 넣어 연속 가창 억제를 시험한다. 태그와 음절 수의 영향은 미검증 가설이다. 이번 단계로 전체 음색·공간·편곡 차이가 해결된다고 보장하지 않는다. G12 Cover로 보컬을 다시 이어받는 경로는 선택하지 않았다.
@@ -35,7 +35,8 @@
 
 ## 정리한 기록
 
-- 사용자 문의로 `04_PROMPT_SOUND_REPORT.md`의 백업 위치·29,561bytes·백업 원장SHA256 일치를 다시 확인했다. 실제 위치는 `archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md`다. 루트README와 [프로젝트 파일 안내](README.md)에 현재 문서·과거 기록·해당 원문 위치를 정리했다. 원본 음원/자료나 분석 폴더는 이번에 재배치하지 않았다. S007은 계속 미실행이다.
-- 활성 폴더에는 Codex 작성 분석/제작 문서와 코드를 유지했다. Claude 요청서·13곡 측정·채널 조사 문서·과거 실험 요약은 `archive_backup/claude-documents_2026-11-03/`에 검증 백업한 뒤 활성 위치에서 삭제했다.
-- 기존 `archive_backup/deep-house_2026-11-02/`는 그대로 보존한다. 과거 자료가 필요할 때만 백업을 확인한다. 음원·PDF·수집 ZIP은 사용자 입력 자료로 보존한다.
+- 사용자 최신 지시에 따라 실제39개 경로를 이동했다. 기존808개 파일(22,434,019,238bytes)을 전후SHA256으로 검증했다. 기존 백업과이전 실험JSON·분리 음원·채널 수집 폴더는 `claude/`로 모았고 원본 음원9개/PDF2개/ZIP1개는 `assets/`로 옮겼다. Codex의분석·S001~S007·합성 가이드는 `local/deep-house/`에 유지한다. 루트의migration은 `common/migration/`, tmp는 `local/tmp/`로 옮겼다.
+- [04_PROMPT_SOUND_REPORT.md 원문](../../claude/archive_backup/claude-documents_2026-11-03/projects/deep-house/04_PROMPT_SOUND_REPORT.md)은29,561bytes이며 기존 백업 해시와 일치한다. 백업 내부 내용·과거 경로는 바꾸지 않았다. 예전 경로가 적힌 원문은 [claude 안내](../../claude/README.md)와 이동표로 찾는다. 로파이 jazzhop·hiphop 백업도claude/archive_backup 안에 별도로 보존한다.
+- 기존13곡 reference 묶음 전체는 `claude/local/deep-house/reference/`로 보관했다. 현재 분석에 필요한R01 원본1개와 두 방식의스템12개는 `local/deep-house/reference/`에 해시가 같은 참조 사본으로 보존했다. 재사용 참조를 Codex 신규 제작물로 세지 않는다. 다른 곡은 음악적으로 새 분석하지 않았다.
+- 현재 문서의 자료 경로·백업 링크를 고쳤다. 기존 생성곡 원본, 첫222초 추출물, 실행 환경, 입력 원문과 사용자 평가를 유지했다. 이번 작업은 폴더 정리이며S007은 계속 미실행이다.
 - Codex의 누적 경과는 [작업 이력](CODEX_WORK_HISTORY.md), 현재 입력 전문은 [프롬프트 원장](13_FIRST_TRACK_PROMPT_LOG.md)을 읽는다. 과거 이력을 현재의 선행 조건으로 다시 적용하지 않는다.

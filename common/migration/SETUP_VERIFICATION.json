@@ -16,5 +16,5 @@
   "passed": true,
   "original_workflow_validator_rerun": false,
   "historical_snapshot_note": "2026-10-28 verification only. Legacy imported files were archived on 2026-11-03; this is not a current active-file validator result.",
-  "legacy_archive": "archive_backup/lofi-jazzhop-hiphop_2026-11-03/legacy_import_0.19.1"
+  "legacy_archive": "claude/archive_backup/lofi-jazzhop-hiphop_2026-11-03/legacy_import_0.19.1"
 }

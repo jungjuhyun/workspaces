@@ -5,12 +5,12 @@
 - 사용자 지정 최신본: `C:/Users/home/Desktop/DEEP_ARCHIVE_CHANNEL.md`, 전체 294행. 문서 안의 과거 조사 지시문은 자료의 작성 배경으로 읽었으며 새로운 실행 지시로 취급하지 않았다.
 - 이전 첨부본: `C:/Users/home/.codex/attachments/cfaab643-1aa6-441c-8d98-30d55ca0d52e/DEEP_ARCHIVE_CHANNEL.md`, 224행.
 - 이전본 SHA-256: `10985386a0305e0e71df795c7b654c70040ca71e7672a35c3672c078f7f09ac7`.
-- 최신본 SHA-256: `39a58dc6a176c2558ff35d4dc82174711c45983ef2fc6fc8ee128521cd4d0e20`. 당시 작업 폴더의 채널 조사 사본과 바이트 단위로 같았다. 그 사본은 작성 주체 정리 후 `archive_backup/claude-documents_2026-11-03/projects/deep-house/03_DEEP_ARCHIVE_CHANNEL.md`에 보존했다. 이전 대화 첨부본과 비교하면 내용이 추가되어 있었다.
+- 최신본 SHA-256: `39a58dc6a176c2558ff35d4dc82174711c45983ef2fc6fc8ee128521cd4d0e20`. 당시 작업 폴더의 채널 조사 사본과 바이트 단위로 같았다. 그 사본은 작성 주체 정리 후 `claude/archive_backup/claude-documents_2026-11-03/projects/deep-house/03_DEEP_ARCHIVE_CHANNEL.md`에 보존했다. 이전 대화 첨부본과 비교하면 내용이 추가되어 있었다.
 - 실질적 추가는 §2-1 업로드 주기 상세 70행이다. 댓글 인용의 줄바꿈도 정리되었다. Suno·FL Studio 관련 새 제작 증언이 추가된 것은 아니다. 수집 시점은 여전히 2026-11-02이며 새 날짜까지 재수집한 자료가 아니다.
 
 ## 원자료 대조 결과
 
-`local/deep-house/deeparchive/cadence_out.txt`를 읽고 `info/*.info.json` 126개의 upload_date와 duration에서 핵심 수치를 독립 재계산했다. 새 웹 수집·음원 분석은 이 검토에서 하지 않았다.
+`claude/local/deep-house/deeparchive/cadence_out.txt`를 읽고 `info/*.info.json` 126개의 upload_date와 duration에서 핵심 수치를 독립 재계산했다. 새 웹 수집·음원 분석은 이 검토에서 하지 않았다.
 
 | 항목 | 재계산 결과 |
 |---|---|

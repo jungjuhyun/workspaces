@@ -16,7 +16,7 @@
 
 | 항목 | 확인 내용 |
 |---|---|
-| 원본 위치 | `C:\workspaces\Lo-fi archive\hyper-focus.  deep house music for coding.mp3` |
+| 원본 위치 | `C:\workspaces\Lo-fi archive\assets\audio\deep-house\hyper-focus.  deep house music for coding.mp3` |
 | 크기·전체 길이 | 356,174,411 bytes, 8,904.359175초. 전체 길이는 메타데이터만 읽음 |
 | 원본 포맷 | MP3, 44,100 Hz, stereo, 표기 320,000 bps. 유효 음질 보증값은 아님 |
 | 원본 SHA-256 | `5a824715f9f13a5aea5e2bb2e0aa60ae68672d14e3ae123a289653f3ddc391f9` |

@@ -225,6 +225,6 @@
     }
   ],
   "active_legacy_files_removed_on": "2026-11-03",
-  "archived_destination": "archive_backup/lofi-jazzhop-hiphop_2026-11-03/legacy_import_0.19.1",
+  "archived_destination": "claude/archive_backup/lofi-jazzhop-hiphop_2026-11-03/legacy_import_0.19.1",
   "current_codex_records": "projects/lofi-playlist/CURRENT_STATUS.md"
 }

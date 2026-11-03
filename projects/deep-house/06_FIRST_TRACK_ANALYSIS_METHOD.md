@@ -4,7 +4,7 @@
 
 ## 대상과 산출물
 
-- 원본: `C:\workspaces\Lo-fi archive\hyper-focus.  deep house music for coding.mp3`.
+- 원본: `C:\workspaces\Lo-fi archive\assets\audio\deep-house\hyper-focus.  deep house music for coding.mp3`.
 - 공개 메타데이터 후보: deep archive `uNw_a7HFwvg`, 첫 곡 Lost in the Echoes, 00:00~03:42. MP3에서 이 범위만 디코딩한다. 공개 곡명이 음향 동일성을 증명하지 않으므로 기존 R01 WAV와 파형을 대조한다.
 - 기존 R01 WAV는 222.85초다. 이번 범위는 222초 미만으로 제한하며 기존 파일 뒤의 0.85초를 포함하지 않는다. 기존 분석 JSON의 BPM·코드·악기 결론은 읽어 정답으로 사용하지 않는다.
 - 분석 출력은 `local/deep-house/first_track_20261102/`에 둔다. 음원·스템·모델 출력·임시 파일은 커밋하지 않는다. 재현 방법, 근거 표와 보고서만 프로젝트에 남긴다.

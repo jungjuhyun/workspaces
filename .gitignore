@@ -20,3 +20,9 @@ transfer_helpers/
 
 # Local historical archives; consult only when needed
 archive_backup/
+claude/*
+!claude/README.md
+
+# User-provided media and guides; keep only the navigation document in Git
+assets/*
+!assets/README.md
