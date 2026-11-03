@@ -334,7 +334,7 @@ Restrained hypnotic deep house, 105 BPM in B-flat minor, Two-chord cycle: G-flat
 
 ## R01-S006 — v0.6 / 2026-11-03 / 로컬 연주 가이드 참조
 
-**상태 정리(2026-11-03):** 아래는 실행 전에 작성한 제안이다. 이후 사용자가 업로드/시험과 업로드 약관 동의를 허용했고, 가이드 업로드와 Create1회/2곡 생성·다운로드·분리/신호 비교를 완료했다. 12,022→12,012로10크레딧 사용. 디스크 정리 후 최신 지시로 C의 실제 폴더에서 분석을 재개했다. Gb1/Bb1/짧은 Db1 연결은 원본 믹스와 대조했고, 편곡·공간 차이를 기록해 청취 비교를 준비했다([19](19_HARMONIC_GUIDE_COMPARISON.md)). 사용자 유사성 판단은 아직 남았다. 아래 '미실행/미적용/허용 대기'는 제안 작성 당시 상태이며 현재 실행을 취소하거나 되돌리는 지시가 아니다.
+**상태 정리(2026-11-03):** 아래는 실행 전에 작성한 제안이다. 이후 사용자가 업로드/시험과 업로드 약관 동의를 허용했고, 가이드 업로드와 Create1회/2곡 생성·다운로드·분리/신호 비교를 완료했다. 12,022→12,012로10크레딧 사용. 디스크 정리 후 최신 지시로 C의 실제 폴더에서 분석을 재개했다. Gb1/Bb1/짧은 Db1 연결은 원본 믹스와 대조했고, 편곡·공간 차이를 기록해 청취 비교를 준비했다([19](19_HARMONIC_GUIDE_COMPARISON.md)). 이후 사용자는G12가 셋 중 가장 가깝지만 턱없이 부족하고 보컬찹이 이어져 노래처럼 들린다고 답했다. 아래 '미실행/미적용/허용 대기'는 제안 작성 당시 상태이며 현재 실행을 취소하거나 되돌리는 지시가 아니다.
 
 ### 실행 전 작성한 제안
 
@@ -396,4 +396,52 @@ Locally synthesized 105 BPM harmonic demo: low Gb1 for four bars, Bb1 for three 
 - G12: https://suno.com/song/e83d79e1-b157-4e5d-93c1-2f1b107786bb — 221.600초 /48kHz stereo PCM16 WAV.
 - 두 곡 페이지의 Cover of가 업로드 가이드 ID임을 확인했다. 실제 Copy lyrics는197자 원문과 일치했고 Copy styles는 문장부호 변경 및 Exclude 태그를 포함해 별도 로컬 파일로 보존했다. 입력 전문과 제품 표시를 구별한다.
 - WAV·UI 캡처·실행JSON·분리/비교 결과는 `local/deep-house/generation_R01S006_20261103/`에 있다. 디스크 부족으로 한때 D에 있었으나 최신 사용자 지시로34개 파일을 해시 검증해 C의 일반 폴더로 되돌렸다. 원본 G11/G12 SHA256은 실행JSON과 일치한다.
-- 원곡/G05/G11/G12 청취 파일은18초씩 -20LUFS로 맞췄다. 원곡 첫 곡222초 이내만 사용했다. 신호 결과·남은 차이·다음 판단은19에 기록했다. AI 직접 청취·사용자 새 청취·EQ/리버브·최종 채택은 아직 하지 않았다.
+- 원곡/G05/G11/G12 청취 파일은18초씩 -20LUFS로 맞췄다. 원곡 첫 곡222초 이내만 사용했다. 신호 결과·남은 차이·사용자 새 청취 응답은19에 기록했다. AI 직접 청취·EQ/리버브·최종 채택은 하지 않았다.
+
+## R01-S007 — v0.7 / 2026-11-03 / 보컬 배치 수정안, 미입력
+
+S006 사용자 평가: G12가G05/G11/G12 중 가장 가깝지만 턱없이 부족하고, 보컬찹이 계속 이어져 노래처럼 들린다. 저음 골격의 신호 개선은 유지하되 전체 재현 달성으로 보지 않는다. 다음 한 시험에서는 보컬의 연속성을 줄이는 입력 묶음을 바꾼다. 큰 음색·공간·편곡 차이는 별도로 남겨 두며 EQ/리버브로 해결됐다고 보지 않는다.
+
+### 통합 Styles — 965자
+
+```text
+Restrained hypnotic deep house at 105 BPM. Follow the guide's bass pitch sequence and slow harmonic pace: low G-flat held for four bars, B-flat for most of four bars, brief low D-flat turnaround, then G-flat again. Keep the upper B-flat, D-flat and F colors. Reimagine the guide with a soft rounded muffled kick, subdued backbeats, thin quiet offbeat hats and hazy electronic chord textures. Use occasional single clipped vocal-sample hits with human vowel formants. Cut each dry syllable short, then leave voice-free bars while its stereo echo fades. Keep the groove foregrounded; voices never form a tune. Sparse texture opening, voice hints near 0:20, full groove near 0:39. Brief gaps near 1:13 and 1:48; upper texture opens at 1:52. Remove bass and drums near 2:29, restore the familiar groove near 2:47. Subtract drums and bass after 3:23 into a fading harmonic tail. Center kick and bass; keep chord and voice tails spacious, restrained and soft. About 3:42.
+```
+
+### 통합 Exclude — 305자
+
+```text
+intelligible lyrics, continuous lead singing, long melisma, choir, busy moving bassline, frequent chord changes, extended solos, string-like leads, brass-like synth leads, piercing hats, hard snares, busy fills, EDM risers, festival drops, sustained vowel singing, wordless lead vocal, nonstop vocal chops
+```
+
+### 통합 Lyrics — 231자
+
+```text
+[Instrumental intro]
+
+[Single clipped vocal hit]
+Ah
+
+[Instrumental groove - voice rests]
+
+[Single clipped vocal hit]
+Oh
+
+[Instrumental groove - voice rests]
+
+[Instrumental break]
+
+[Single clipped vocal hit]
+Ah
+
+[Instrumental outro]
+```
+
+### 필요한 설정과 검증 범위
+
+- Advanced / Cover / v6-mini. 참조는 이미 업로드한 합성 가이드 https://suno.com/song/1f7ead8c-0549-4cb8-ad59-fb1933432acb. G12나 원곡의 새 업로드는 제안하지 않는다.
+- Duration222 / Weirdness50 / Style50 / Audio80 / Variety0 / MaxOff / PersonalizeOff / 성별 지정 없음. S006과 같은 제안값이며 이번에는 실제 UI에 입력하지 않았다. 원곡 보존·최적 설정이라는 보장이 아니다.
+- 비보컬 Styles는S006과 문자 단위로 같다. 보컬 문단/Exclude 추가/Lyrics의 배치만 수정했다.6음절을3음절로 줄여 발음 사이 연주 공간을 요청한다. 이 수는 원곡 사건 수의 정확한 전사가 아니며, 태그가 실제 쉼표/게이트로 작동한다는 검증도 없다. 보컬 존재가 사라지거나 여전히 긴 가창으로 이어질 수 있다.
+- 평가: 원곡과 음량을 맞춰 **짧은 목소리 조각 뒤에 실제 목소리의 빈 공간이 생기는지** 확인한다. 분리 성분의 긴 꼬리와 발음은 구별한다. 기존 저음 골격 유지와 전체 음색/공간이G12보다 더 멀어지는지도 함께 본다. 기준은 첫 곡이며 원곡을 매8마디에 한 번 찹이 있는 고정 규칙으로 새로 단정하지 않는다.
+- 계획 상한은 일반Create1회/2곡/10크레딧. 이전S006 허용10크레딧은 사용 완료했으므로 이번 새 유료 실행은 허용을 받고 진행한다. 동일 방법에서 연속 가창이 지속되거나 보컬이 없어지면 같은 입력으로 추가Create를 계속 누르지 않는다.
+- 작성 상태: 로컬 통합 입력 준비. Suno 입력0회 / 생성0곡 / 사용0크레딧 / 출력URL 없음. 구매·새 업로드·EQ/리버브·최종 채택 없음. 로컬 `generation_R01S007_20261103/draft_record.json`에 제안값/실제 미실행을 구별했다.
