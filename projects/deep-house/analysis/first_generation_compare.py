@@ -61,7 +61,15 @@ def regions(mask, step=.25, minimum=3):
 
 def separate(label, path, model):
     dest = OUT / 'stems' / label
-    if all((dest / f'{p}.wav').exists() for p in PARTS):
+    expected_frames = round(sf.info(path).duration * model.samplerate)
+    complete = (dest / 'separation_record.json').exists()
+    for part in PARTS:
+        try:
+            info = sf.info(dest / f'{part}.wav')
+            complete = complete and info.samplerate == model.samplerate and info.channels == 2 and abs(info.frames-expected_frames) <= 1
+        except (OSError, sf.LibsndfileError):
+            complete = False
+    if complete:
         print('REUSE_COMPLETED_STEMS',label,flush=True)
         return
     start = time.time()
